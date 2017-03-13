@@ -2,12 +2,13 @@
     "compilerOptions": {
         "jsx": "react",
         "module": "commonjs",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "outDir": "./build/",
         "preserveConstEnums": true,
         "sourceMap": true,
         "removeComments": true,
-        "target": "ES5"
+        "target": "ES5",
+        "allowJs": true
     },
     "exclude": [
         "node_modules"
