@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 510);
+/******/ 	return __webpack_require__(__webpack_require__.s = 511);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -17846,7 +17846,11 @@ module.exports = ReactPropTypesSecret;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(4);
 var ReactDOM = __webpack_require__(51);
-var Tree_1 = __webpack_require__(509);
+var Hello_1 = __webpack_require__(509);
+var Slack_1 = __webpack_require__(512);
+var Tree_1 = __webpack_require__(510);
+ReactDOM.render(React.createElement(Slack_1.default, null), document.getElementById("hello"));
+ReactDOM.render(React.createElement(Hello_1.default, { name: "fcuk..." }), document.getElementById("slack"));
 ReactDOM.render(React.createElement(Tree_1.default, null), document.getElementById("tree"));
 
 
@@ -44428,6 +44432,39 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(4);
+var Hello = (function (_super) {
+    __extends(Hello, _super);
+    function Hello() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Hello.prototype.render = function () {
+        return React.createElement("div", null,
+            "Hello, ",
+            this.props.name);
+    };
+    return Hello;
+}(React.Component));
+exports.default = Hello;
+
+
+/***/ }),
+/* 510 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(4);
 var react_sortable_tree_1 = __webpack_require__(467);
 var Tree = (function (_super) {
     __extends(Tree, _super);
@@ -44449,10 +44486,42 @@ exports.default = Tree;
 
 
 /***/ }),
-/* 510 */
+/* 511 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(216);
+
+
+/***/ }),
+/* 512 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(4);
+var Slack = (function (_super) {
+    __extends(Slack, _super);
+    function Slack() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Slack.prototype.render = function () {
+        return React.createElement("div", null,
+            React.createElement("iframe", { src: "https://swc-fcuk-slack-inviter.herokuapp.com/", width: '400px', height: '400px', frameBorder: 'none' }));
+    };
+    return Slack;
+}(React.Component));
+exports.default = Slack;
 
 
 /***/ })
