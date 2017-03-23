@@ -74,7 +74,7 @@ var PeoplePage = React.createClass({
 
         return (
             <div className="peopleSearchPane" style={{ height: "100%", width: peoplePaneWidth, display: "inline-block", verticalAlign: "top" }}>
-                <ReactWinJS.ToolBar className="peopleToolBar">
+                {/*<ReactWinJS.ToolBar className="peopleToolBar">
                     <ReactWinJS.ToolBar.Button
                         key="edit"
                         icon="edit"
@@ -109,7 +109,7 @@ var PeoplePage = React.createClass({
                         priority={0}
                         selected={this.state.selectionMode}
                         onClick={this.handleToggleSelectionMode} />
-                </ReactWinJS.ToolBar>
+                </ReactWinJS.ToolBar>*/}
 
                 <ReactWinJS.ListView
                     ref="listView"
@@ -156,22 +156,6 @@ var PeoplePage = React.createClass({
                     <div className="profileContent">
                         <ul>
                             <li><span className="messageIcon" />Message</li>
-                            <li>
-                                <span className="phoneIcon" />
-                                <div className="callContent">
-                                    <a href="call:5550100">Call Mobile</a>
-                                    <div className="number">{selectedPerson.mobilePhone}</div>
-                                </div>
-                            </li>
-                            <li>
-                                <span className="phoneIcon" />
-                                <div className="callContent">
-                                    <a href="call:5550100">Call Work</a>
-                                    <div className="number">{selectedPerson.workPhone}</div>
-                                </div>
-                            </li>
-                            <li><span className="phoneIcon" />Call using an app</li>
-                            <li><span className="videoCallIcon" />Video call</li>
                             <li><span className="emailIcon" />Email work</li>
                             <li><span className="mapIcon" />Map home</li>
                         </ul>

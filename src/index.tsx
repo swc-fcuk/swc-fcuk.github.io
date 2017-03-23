@@ -137,9 +137,9 @@ var App = React.createClass({
                 onPeopleChanged={this.handlePeopleChanged} />
         );
     },
-    //renderOtherPage: function () {
-    //    return <OtherPage location={this.state.location} />
-    //},
+    renderOtherPage: function () {
+        return <OtherPage location={this.state.location} />
+    },
     renderContent: function () {
         if (this.state.location.length === 0 || this.state.location[0] === "people") {
             return this.renderPeoplePage();
@@ -189,7 +189,7 @@ var App = React.createClass({
                         paneOpened={this.state.paneOpened}
                         onInvoked={this.handleTogglePane} />
                     {this.renderBackButton()}
-                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>Address Book</h3>
+                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk@Star Wars: Commander</h3>
                 </div>
                 <ReactWinJS.SplitView
                     id={splitViewId}
