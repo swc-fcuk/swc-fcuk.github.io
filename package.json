@@ -1,33 +1,26 @@
 {
   "name": "swc-fcuk.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/swc-fcuk/swc-fcuk.github.io.git"
-  },
-  "keywords": [],
-  "author": "joshuatee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/swc-fcuk/swc-fcuk.github.io/issues"
-  },
-  "homepage": "https://swc-fcuk.github.io/",
-  "devDependencies": {
-    "ts-loader": "^2.0.1",
-    "typescript": "^2.2.1",
-    "typings": "^2.1.0",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
-  },
+  "version": "0.1.0",
+  "description": "fcuk@\"Star Wars: Commander\"",
+  "main": "index.tsx",
+  "repository": "https://github.com/swc-fcuk/swc-fcuk.github.io.git",
+  "author": "joshuatee <joshua.j.tee@outlook.com>",
+  "license": "MIT",
   "dependencies": {
+    "jsx-loader": "^0.13.2",
     "react": "^15.4.2",
-    "react-addons-shallow-compare": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-sortable-tree": "^0.1.12"
+    "react-winjs": "^2.5.0",
+    "winjs": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.18",
+    "@types/react-dom": "^0.14.23",
+    "@types/webpack": "^2.2.12",
+    "webpack": "^2.3.1"
+  },
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
