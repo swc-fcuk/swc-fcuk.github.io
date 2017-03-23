@@ -52,25 +52,25 @@ function getMode() {
 }
 
 var App = React.createClass({
-    getSplitViewConfig: function () {
+    getSplitViewConfig() {
         return splitViewConfigs[this.state.mode];
     },
-    handlePeopleChanged: function (newPeople: any) {
+    handlePeopleChanged(newPeople: any) {
         this.setState({
             people: newPeople
         });
     },
-    handleNavigation: function (newLocation: any) {
+    handleNavigation(newLocation: any) {
         this.setState({
             location: newLocation
         });
     },
-    handleBack: function () {
+    handleBack() {
         var location = this.state.location;
         location.pop();
         this.handleNavigation(location);
     },
-    handleResize: function () {
+    handleResize() {
         var prevMode = this.state.mode;
         var nextMode = getMode();
 
@@ -78,30 +78,30 @@ var App = React.createClass({
             this.setState({ mode: nextMode });
         }
     },
-    handleCommandInvoked: function (newLocation: any) {
+    handleCommandInvoked(newLocation: any) {
         this.setState({
             location: newLocation,
             paneOpened: this.getSplitViewConfig().openedDisplayMode === "overlay" ? false : this.state.paneOpened
         });
     },
-    handleTogglePane: function () {
+    handleTogglePane() {
         this.setState({ paneOpened: !this.state.paneOpened });
     },
-    handleAfterClose: function () {
+    handleAfterClose() {
         this.setState({ paneOpened: false });
     },
-    getInitialState: function () {
+    getInitialState() {
         var mode = getMode();
 
-        var groupKey = function (data: any) {
+        var groupKey = function(data: any) {
             return data.name[0].toUpperCase();
         };
 
-        var groupData = function (data: any) {
+        var groupData = function(data: any) {
             return { title: groupKey(data) };
         };
 
-        var sorter = function (a: any, b: any) {
+        var sorter = function(a: any, b: any) {
             if (a.name < b.name) {
                 return -1;
             } else if (a.name > b.name) {
@@ -121,13 +121,13 @@ var App = React.createClass({
             location: ["people"]
         };
     },
-    componentWillMount: function () {
+    componentWillMount() {
         window.addEventListener("resize", this.handleResize);
     },
-    componentWillUnmount: function () {
+    componentWillUnmount() {
         window.removeEventListener("resize", this.handleResize);
     },
-    renderPeoplePage: function () {
+    renderPeoplePage() {
         return (
             <PeoplePage
                 mode={this.state.mode}
@@ -137,24 +137,24 @@ var App = React.createClass({
                 onPeopleChanged={this.handlePeopleChanged} />
         );
     },
-    renderOtherPage: function () {
+    renderOtherPage() {
         return <OtherPage location={this.state.location} />
     },
-    renderContent: function () {
+    renderContent() {
         if (this.state.location.length === 0 || this.state.location[0] === "people") {
             return this.renderPeoplePage();
         } else {
             return this.renderOtherPage();
         }
     },
-    renderBackButton: function () {
+    renderBackButton() {
         var canGoBack = this.state.location.length > 1;
         var shouldShowBackButton = canGoBack && this.state.mode === "small";
         return shouldShowBackButton ?
             <button style={{ display: "inline-block" }} className="win-backbutton" onClick={this.handleBack} /> :
             null;
     },
-    render: function () {
+    render() {
         var paneComponent = (
             <div>
                 <ReactWinJS.SplitView.Command
@@ -189,7 +189,7 @@ var App = React.createClass({
                         paneOpened={this.state.paneOpened}
                         onInvoked={this.handleTogglePane} />
                     {this.renderBackButton()}
-                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk@Star Wars: Commander</h3>
+                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk @ Star Wars: Commander</h3>
                 </div>
                 <ReactWinJS.SplitView
                     id={splitViewId}
@@ -198,7 +198,8 @@ var App = React.createClass({
                     contentComponent={contentComponent}
                     onAfterClose={this.handleAfterClose}
                     paneOpened={this.state.paneOpened}
-                    {...this.getSplitViewConfig() } />
+
+                    /*{...this.getSplitViewConfig() }*/ />
             </div>
         );
     }

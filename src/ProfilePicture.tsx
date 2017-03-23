@@ -1,24 +1,14 @@
 
-//import * as WinJS from 'winjs';
 import * as React from 'react';
-
-//var ReactWinJS = require('react-winjs');
 
 
 export interface ProfilePictureProps {
-    // TODO: State or Props?
     backgroundUrl: string;
     size: number;
 }
 
 
-export interface ProfilePictureState {
-
-}
-
-
-export default class ProfilePicture extends React.Component<ProfilePictureProps,
-    ProfilePictureState> {
+export default class ProfilePicture extends React.Component<ProfilePictureProps, undefined> {
 
     render() {
         const size: number = this.props.size
