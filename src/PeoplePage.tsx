@@ -1,10 +1,12 @@
-/** @jsx React.DOM */
 
-var React = require('react');
+import * as WinJS from 'winjs';
+import * as React from 'react';
+
 var ReactWinJS = require('react-winjs');
-var ProfilePicture = require('./ProfilePicture.jsx');
 
-function calc100PercentMinus(n) {
+import ProfilePicture from './ProfilePicture';
+
+function calc100PercentMinus(n: number) {
     return n === 0 ?
         "100%" :
         "calc(100% - " + (n + "px") + ")";
@@ -18,7 +20,7 @@ var PeoplePage = React.createClass({
         this.props.onNavigate(["people"]);
         this.refs.listView.winControl.selection.clear();
     },
-    handleSelectionChanged: function (eventObject) {
+    handleSelectionChanged: function (eventObject: any) {
         var listView = eventObject.currentTarget.winControl;
         var indices = listView.selection.getIndices();
         // Post to avoid navigating while in the middle of the event handler
@@ -32,7 +34,7 @@ var PeoplePage = React.createClass({
         var indices = this.state.selectedPeople;
         indices.sort();
         indices.reverse();
-        indices.forEach(function (i) {
+        indices.forEach(function (i: number) {
             people.splice(i, 1);
         });
         this.setState({
@@ -41,13 +43,13 @@ var PeoplePage = React.createClass({
         });
         this.props.onPeopleChanged(people);
     },
-    handleContentAnimating: function (eventObject) {
+    handleContentAnimating: function (eventObject: any) {
         // Disable ListView's entrance animation
         if (eventObject.detail.type === "entrance") {
             eventObject.preventDefault();
         }
     },
-    personRenderer: ReactWinJS.reactRenderer(function (person) {
+    personRenderer: ReactWinJS.reactRenderer(function (person: any) {
         return (
             <div>
                 <ProfilePicture backgroundUrl={person.data.picture} size={34} />
@@ -55,12 +57,12 @@ var PeoplePage = React.createClass({
             </div>
         );
     }),
-    groupHeaderRenderer: ReactWinJS.reactRenderer(function (item) {
+    groupHeaderRenderer: ReactWinJS.reactRenderer(function (item: any) {
         return (
             <div>{item.data.title}</div>
         );
     }),
-    renderPeoplePane: function (peoplePaneWidth) {
+    renderPeoplePane: function (peoplePaneWidth: number) {
         var deleteCommand = (
             <ReactWinJS.ToolBar.Button
                 key="delete"
@@ -71,7 +73,7 @@ var PeoplePage = React.createClass({
         );
 
         return (
-            <div className="peopleSearchPane" style={{height: "100%", width: peoplePaneWidth, display: "inline-block", verticalAlign:"top"}}>
+            <div className="peopleSearchPane" style={{ height: "100%", width: peoplePaneWidth, display: "inline-block", verticalAlign: "top" }}>
                 <ReactWinJS.ToolBar className="peopleToolBar">
                     <ReactWinJS.ToolBar.Button
                         key="edit"
@@ -112,7 +114,7 @@ var PeoplePage = React.createClass({
                 <ReactWinJS.ListView
                     ref="listView"
                     className="peopleListView win-selectionstylefilled"
-                    style={{height: "calc(100% - 48px)"}}
+                    style={{ height: "calc(100% - 48px)" }}
                     itemDataSource={this.props.people.dataSource}
                     itemTemplate={this.personRenderer}
                     groupDataSource={this.props.people.groups.dataSource}
@@ -125,19 +127,19 @@ var PeoplePage = React.createClass({
             </div>
         );
     },
-    renderProfilePane: function (selectedIndex, peoplePaneWidth) {
+    renderProfilePane: function (selectedIndex: any, peoplePaneWidth: number) {
         if (selectedIndex === null) {
             return (
-                <div className="profilePane" style={{height: "100%", width: calc100PercentMinus(peoplePaneWidth), display: "inline-block",verticalAlign:"top"}}>
-                    <div style={{display: "flex", height: "100%", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
-                        <h1 className="win-h1" style={{color: "grey"}}>No Selection</h1>
+                <div className="profilePane" style={{ height: "100%", width: calc100PercentMinus(peoplePaneWidth), display: "inline-block", verticalAlign: "top" }}>
+                    <div style={{ display: "flex", height: "100%", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+                        <h1 className="win-h1" style={{ color: "grey" }}>No Selection</h1>
                     </div>
                 </div>
             );
         } else {
             var selectedPerson = this.props.people.getAt(selectedIndex);
             return (
-                <div className="profilePane" style={{height: "100%", width: calc100PercentMinus(peoplePaneWidth), display: "inline-block",verticalAlign:"top"}}>
+                <div className="profilePane" style={{ height: "100%", width: calc100PercentMinus(peoplePaneWidth), display: "inline-block", verticalAlign: "top" }}>
                     <div className="profileHeader">
                         <div className="name">{selectedPerson.name}</div>
                         <div className="personInfo">
@@ -204,7 +206,7 @@ var PeoplePage = React.createClass({
         } else {
             var peoplePaneWidth = 320;
             return (
-                <div style={{height: "100%"}}>
+                <div style={{ height: "100%" }}>
                     {this.renderPeoplePane(peoplePaneWidth)}
                     {this.renderProfilePane(selectedIndex, peoplePaneWidth)}
                 </div>
@@ -214,3 +216,5 @@ var PeoplePage = React.createClass({
 });
 
 module.exports = PeoplePage;
+
+

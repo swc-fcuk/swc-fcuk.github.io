@@ -1,5 +1,5 @@
 var nextPersonId = 0;
-var firstNames = ["Aaliyah","Aaron","Abigail","Adam","Addison","Adrian","Aiden","Alexa","Alexandra","Alexis","Alice","Allison","Alyssa","Amelia","Andrew","Angel","Anna","Annabelle","Anthony","Aria","Ariana","Arianna","Asher","Ashley","Aubree","Aubrey","Audrey","Austin","Autumn","Ava","Avery","Ayden","Bella","Benjamin","Bentley","Blake","Brandon","Brayden","Brianna","Brody","Brooklyn","Caleb","Camden","Cameron","Camila","Caroline","Carson","Carter","Charles","Charlotte","Chase","Chloe","Christian","Christopher","Claire","Colton","Connor","Cooper","Daniel","David","Dominic","Dylan","Easton","Eleanor","Eli","Elijah","Elizabeth","Ella","Ellie","Emily","Emma","Eva","Evan","Evelyn","Faith","Gabriel","Gabriella","Gavin","Genesis","Gianna","Grace","Grayson","Hadley","Hailey","Hannah","Harper","Henry","Hudson","Hunter","Ian","Isaac","Isabella","Isabelle","Isaiah","Jace","Jack","Jackson","Jasmine","Jason","Jaxon","Jaxson","Jayden","Jeremiah","John","Jonathan","Jordan","Jose","Joseph","Joshua","Josiah","Juan","Julia","Julian","Justin","Katherine","Kayden","Kaylee","Kennedy","Kevin","Khloe","Kylie","Landon","Lauren","Layla","Leah","Leo","Levi","Lillian","Lily","Lincoln","Logan","London","Lucas","Lucy","Luis","Luke","Lydia","Mackenzie","Madeline","Madelyn","Madison","Matthew","Maya","Melanie","Mia","Mila","Naomi","Natalie","Nathan","Nathaniel","Nevaeh","Nicholas","Nolan","Nora","Oliver","Olivia","Owen","Paisley","Parker","Penelope","Peyton","Piper","Riley","Robert","Ruby","Ryan","Ryder","Sadie","Samantha","Samuel","Sarah","Savannah","Scarlett","Sebastian","Serenity","Skylar","Sofia","Sophia","Sophie","Stella","Taylor","Thomas","Tristan","Tyler","Victoria","Violet","Vivian","Wyatt","Xavier","Zachary","Zoe","Zoey"];
+var firstNames = ["Aaliyah", "Aaron", "Abigail", "Adam", "Addison", "Adrian", "Aiden", "Alexa", "Alexandra", "Alexis", "Alice", "Allison", "Alyssa", "Amelia", "Andrew", "Angel", "Anna", "Annabelle", "Anthony", "Aria", "Ariana", "Arianna", "Asher", "Ashley", "Aubree", "Aubrey", "Audrey", "Austin", "Autumn", "Ava", "Avery", "Ayden", "Bella", "Benjamin", "Bentley", "Blake", "Brandon", "Brayden", "Brianna", "Brody", "Brooklyn", "Caleb", "Camden", "Cameron", "Camila", "Caroline", "Carson", "Carter", "Charles", "Charlotte", "Chase", "Chloe", "Christian", "Christopher", "Claire", "Colton", "Connor", "Cooper", "Daniel", "David", "Dominic", "Dylan", "Easton", "Eleanor", "Eli", "Elijah", "Elizabeth", "Ella", "Ellie", "Emily", "Emma", "Eva", "Evan", "Evelyn", "Faith", "Gabriel", "Gabriella", "Gavin", "Genesis", "Gianna", "Grace", "Grayson", "Hadley", "Hailey", "Hannah", "Harper", "Henry", "Hudson", "Hunter", "Ian", "Isaac", "Isabella", "Isabelle", "Isaiah", "Jace", "Jack", "Jackson", "Jasmine", "Jason", "Jaxon", "Jaxson", "Jayden", "Jeremiah", "John", "Jonathan", "Jordan", "Jose", "Joseph", "Joshua", "Josiah", "Juan", "Julia", "Julian", "Justin", "Katherine", "Kayden", "Kaylee", "Kennedy", "Kevin", "Khloe", "Kylie", "Landon", "Lauren", "Layla", "Leah", "Leo", "Levi", "Lillian", "Lily", "Lincoln", "Logan", "London", "Lucas", "Lucy", "Luis", "Luke", "Lydia", "Mackenzie", "Madeline", "Madelyn", "Madison", "Matthew", "Maya", "Melanie", "Mia", "Mila", "Naomi", "Natalie", "Nathan", "Nathaniel", "Nevaeh", "Nicholas", "Nolan", "Nora", "Oliver", "Olivia", "Owen", "Paisley", "Parker", "Penelope", "Peyton", "Piper", "Riley", "Robert", "Ruby", "Ryan", "Ryder", "Sadie", "Samantha", "Samuel", "Sarah", "Savannah", "Scarlett", "Sebastian", "Serenity", "Skylar", "Sofia", "Sophia", "Sophie", "Stella", "Taylor", "Thomas", "Tristan", "Tyler", "Victoria", "Violet", "Vivian", "Wyatt", "Xavier", "Zachary", "Zoe", "Zoey"];
 var lastNames = ["Avey", "Crofoot", "Flor", "Barletta", "Zoller", "Rosson", "Coomes", "Wilken", "Withey", "Ojeda", "Mennella", "Gauer", "Puccio", "Zimmerer", "Cottrell", "Bridgman", "Gershman", "Tinoco", "Ayoub", "Fournier", "Marcella", "Melrose", "Lafontaine", "Cathcart", "Cioffi", "Sands", "Lei", "Cardoso", "Dela", "Metcalfe", "Ethridge", "Fryer", "Warden", "Madson", "Gonsales", "Tobey", "Knecht", "Gallion", "Thibault", "Brockington", "Baney", "Haddox", "Kang", "Galyean", "Riccio", "Lake", "Mirabella", "Frechette", "Rearick", "Carmouche"];
 var loremIpsum = [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -18,8 +18,8 @@ var statuses = [
 
 var posterWidth = 400;
 var posterHeight = 400;
-var _canvas;
-function makePoster(color) {
+var _canvas: HTMLCanvasElement;
+function makePoster(color: any) {
     if (!_canvas) {
         _canvas = document.createElement("canvas");
         _canvas.width = posterWidth;
@@ -40,15 +40,15 @@ var posters = posterColors.map(function (color) {
     return makePoster("rgb(" + color.join(", ") + ")");
 });
 
-function randomInt(first, last) {
+function randomInt(first: any, last: any) {
     return Math.round(Math.random() * (last - first)) + first;
 }
 
-function randomElement(array) {
+function randomElement(array: Array<any>) {
     return array[randomInt(0, array.length - 1)];
 }
 
-function genArray(minLength, maxLength, genElement) {
+function genArray(minLength: any, maxLength: any, genElement: any) {
     var len = randomInt(minLength, maxLength);
     var result = new Array(len);
     for (var i = 0; i < len; i++) {

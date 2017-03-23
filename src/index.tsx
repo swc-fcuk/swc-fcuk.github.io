@@ -1,16 +1,22 @@
-/** @jsx React.DOM */
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+import * as WinJS from 'winjs';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+
+//import * as ReactWinJS from 'react-winjs';
 var ReactWinJS = require('react-winjs');
-var PeoplePage = require('./PeoplePage.jsx');
-var OtherPage = require('./OtherPage.jsx');
-var ProfilePicture = require('./ProfilePicture.jsx');
-var Data = require('./FakeData.js');
+
+//import PeoplePage from './PeoplePage';
+var PeoplePage = require('./PeoplePage.tsx');
+var OtherPage = require('./OtherPage.tsx');
+import ProfilePicture from './ProfilePicture'
+
+//import * as Data from './FakeData'
+var Data = require('./FakeData.ts');
 
 var splitViewId = "rootSplitView";
 
-var splitViewConfigs = {
+var splitViewConfigs: any = {
     small: {
         closedDisplayMode: "none",
         openedDisplayMode: "overlay"
@@ -26,7 +32,8 @@ var splitViewConfigs = {
 };
 
 function merge(/* objs */) {
-    var result = {};
+    var k: any;
+    var result: any = {};
     for (var i = 0, len = arguments.length; i < len; i++) {
         var obj = arguments[i];
         if (obj) {
@@ -48,12 +55,12 @@ var App = React.createClass({
     getSplitViewConfig: function () {
         return splitViewConfigs[this.state.mode];
     },
-    handlePeopleChanged: function (newPeople) {
+    handlePeopleChanged: function (newPeople: any) {
         this.setState({
             people: newPeople
         });
     },
-    handleNavigation: function (newLocation) {
+    handleNavigation: function (newLocation: any) {
         this.setState({
             location: newLocation
         });
@@ -71,7 +78,7 @@ var App = React.createClass({
             this.setState({ mode: nextMode });
         }
     },
-    handleCommandInvoked: function (newLocation) {
+    handleCommandInvoked: function (newLocation: any) {
         this.setState({
             location: newLocation,
             paneOpened: this.getSplitViewConfig().openedDisplayMode === "overlay" ? false : this.state.paneOpened
@@ -86,15 +93,15 @@ var App = React.createClass({
     getInitialState: function () {
         var mode = getMode();
 
-        var groupKey = function (data) {
+        var groupKey = function (data: any) {
             return data.name[0].toUpperCase();
         };
 
-        var groupData = function (data) {
+        var groupData = function (data: any) {
             return { title: groupKey(data) };
         };
 
-        var sorter = function (a, b) {
+        var sorter = function (a: any, b: any) {
             if (a.name < b.name) {
                 return -1;
             } else if (a.name > b.name) {
@@ -130,9 +137,9 @@ var App = React.createClass({
                 onPeopleChanged={this.handlePeopleChanged} />
         );
     },
-    renderOtherPage: function () {
-        return <OtherPage location={this.state.location} />
-    },
+    //renderOtherPage: function () {
+    //    return <OtherPage location={this.state.location} />
+    //},
     renderContent: function () {
         if (this.state.location.length === 0 || this.state.location[0] === "people") {
             return this.renderPeoplePage();
@@ -182,7 +189,7 @@ var App = React.createClass({
                         paneOpened={this.state.paneOpened}
                         onInvoked={this.handleTogglePane} />
                     {this.renderBackButton()}
-                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk @ Star Wars: Commander</h3>
+                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>Address Book</h3>
                 </div>
                 <ReactWinJS.SplitView
                     id={splitViewId}
@@ -198,3 +205,5 @@ var App = React.createClass({
 });
 
 ReactDOM.render(<App />, document.getElementById("app"));
+
+
