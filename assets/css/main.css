@@ -187,6 +187,10 @@
     content: "\E139";
 }
 
+
+/******   *****/
+
 body {
-    background-image: url("./../img/background.jpg")
+    background-color: black;
+    background-image: url("./../img/background.jpg");
 }

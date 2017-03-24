@@ -184,7 +184,8 @@ var App = React.createClass({
 
         return (
             <div style={{ height: "100%" }}>
-                <div style={{ height: 48, backgroundColor: "rgb(1, 121, 216)" }} className="win-ui-dark">
+                {/*top*/}
+                <div style={{ height: 48, backgroundColor: "rgba(1, 121, 216, 0.5)" }} className="win-ui-dark">
                     <ReactWinJS.SplitViewPaneToggle
                         aria-controls={splitViewId}
                         style={{ display: 'inline-block' }}
