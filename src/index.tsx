@@ -193,7 +193,7 @@ var App = React.createClass({
                         onInvoked={this.handleTogglePane} />
                     {this.renderBackButton()}
                     {/* TODO: add test for the html title */}
-                    <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk @ Star Wars: Commander</h3>
+                    <h4 className="win-h4" style={{ display: "inline-block", marginLeft: 5 }}>fcuk</h4>
                 </div>
                 <ReactWinJS.SplitView
                     id={splitViewId}

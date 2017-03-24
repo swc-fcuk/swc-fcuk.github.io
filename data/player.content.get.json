@@ -1,0 +1,37 @@
+{
+    "protocolVersion": 60,
+    "data": [
+        {
+            "requestId": 7,
+            "result": {
+                "cdnRoots": [
+                    "http://di-cdn-seed02.playdom.com/cloud-cms/"
+                ],
+                "secureCdnRoots": [
+                    "https://di-cdn-seed02.playdom.com/cloud-cms/"
+                ],
+                "appCode": "strtw",
+                "environment": "prod",
+                "manifestVersion": 117,
+                "manifest": "117.json",
+                "patches": [
+                    "patches/arc.json",
+                    "patches/base.json",
+                    "patches/fue.json",
+                    "patches/reserved.json",
+                    "patches/cae.json",
+                    "patches/wts.json",
+                    "patches/holo.json",
+                    "patches/olc.json",
+                    "patches/war.json",
+                    "patches/prk.json",
+                    "strings/strings_en-US.json"
+                ]
+            },
+            "messages": {},
+            "status": 0
+        }
+    ],
+    "serverTime": "2017-03-24T13:08:54-07:00",
+    "serverTimestamp": 1490386134
+}
