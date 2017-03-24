@@ -2,9 +2,9 @@
 import * as WinJS from 'winjs';
 import * as React from 'react';
 
-var ReactWinJS = require('react-winjs');
-
 import ProfilePicture from './ProfilePicture';
+
+var ReactWinJS = require('react-winjs');
 
 function calc100PercentMinus(n: number) {
     return n === 0 ?
@@ -24,7 +24,7 @@ var PeoplePage = React.createClass({
         var listView = eventObject.currentTarget.winControl;
         var indices = listView.selection.getIndices();
         // Post to avoid navigating while in the middle of the event handler
-        setTimeout(function() {
+        setTimeout(function () {
             this.setState({ selectedPeople: indices });
             this.props.onNavigate(indices.length === 1 && !this.state.selectionMode ? ["people", indices[0]] : ["people"]);
         }.bind(this), 0);
@@ -34,7 +34,7 @@ var PeoplePage = React.createClass({
         var indices = this.state.selectedPeople;
         indices.sort();
         indices.reverse();
-        indices.forEach(function(i: number) {
+        indices.forEach(function (i: number) {
             people.splice(i, 1);
         });
         this.setState({
@@ -49,7 +49,7 @@ var PeoplePage = React.createClass({
             eventObject.preventDefault();
         }
     },
-    personRenderer: ReactWinJS.reactRenderer(function(person: any) {
+    personRenderer: ReactWinJS.reactRenderer(function (person: any) {
         return (
             <div>
                 <ProfilePicture backgroundUrl={person.data.picture} size={34} />
@@ -57,11 +57,11 @@ var PeoplePage = React.createClass({
             </div>
         );
     }),
-    groupHeaderRenderer: ReactWinJS.reactRenderer(function(item: any) {
-        return (
-            <div>{item.data.title}</div>
-        );
-    }),
+    //groupHeaderRenderer: ReactWinJS.reactRenderer(function(item: any) {
+    //    return (
+    //        <div>{item.data.title}</div>
+    //    );
+    //}),
     renderPeoplePane(peoplePaneWidth: number) {
 
         return (
@@ -72,8 +72,8 @@ var PeoplePage = React.createClass({
                     style={{ height: "calc(100% - 48px)" }}
                     itemDataSource={this.props.people.dataSource}
                     itemTemplate={this.personRenderer}
-                    groupDataSource={this.props.people.groups.dataSource}
-                    groupHeaderTemplate={this.groupHeaderRenderer}
+                    //groupDataSource={this.props.people.groups.dataSource}
+                    //groupHeaderTemplate={this.groupHeaderRenderer}
                     layout={this.state.layout}
                     selectionMode={this.state.selectionMode ? "multi" : "single"}
                     tapBehavior={this.state.selectionMode ? "toggleSelect" : "directSelect"}

@@ -29,9 +29,9 @@ module.exports = {
                 use: 'json-loader'
             },
             // static assets
-            { test: /\.html$/, loader: 'html-loader' },
-            { test: /\.png$/, loader: 'url-loader?limit=10000' },
-            { test: /\.jpg$/, loader: 'file-loader' },
+            { test: /\.html$/, use: 'html-loader' },
+            { test: /\.png$/, use: 'url-loader?limit=10000' },
+            { test: /\.jpg$/, use: 'file-loader' },
         ],
     },
 
@@ -51,5 +51,8 @@ module.exports = {
         'react-dom': 'ReactDOM'
     }
 };
+
+//import squad from './data/squad.json'
+//var squad = require('json-loader!./data/squad.json');
 
 

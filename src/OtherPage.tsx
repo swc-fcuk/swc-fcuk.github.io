@@ -3,7 +3,7 @@ import * as React from 'react';
 
 var urlToContent: any = {
     new: "What's New",
-    groups: "Groups",
+    groups: "Some other view",
     settings: "Settings"
 };
 

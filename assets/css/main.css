@@ -186,3 +186,7 @@
 .profileContent .mapIcon::before {
     content: "\E139";
 }
+
+body {
+    background-image: url("./../img/background.jpg")
+}

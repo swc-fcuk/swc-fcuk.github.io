@@ -12,7 +12,8 @@ var OtherPage = require('./OtherPage.tsx');
 import ProfilePicture from './ProfilePicture'
 
 //import * as Data from './FakeData'
-var Data = require('./FakeData.ts');
+//var Data = require('./FakeData.ts');
+var Data = require('./Data.ts');
 
 var splitViewId = "rootSplitView";
 
@@ -147,6 +148,7 @@ var App = React.createClass({
             return this.renderOtherPage();
         }
     },
+    // TODO: Fix Me!
     renderBackButton() {
         var canGoBack = this.state.location.length > 1;
         var shouldShowBackButton = canGoBack && this.state.mode === "small";
