@@ -1065,15 +1065,15 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-mime-db@~1.26.0:
-  version "1.26.0"
-  resolved mime-db-1.26.0.tgz#eaffcd0e4fc6935cf8134da246e2e6c35305adff
+mime-db@~1.27.0:
+  version "1.27.0"
+  resolved mime-db-1.27.0.tgz#820f572296bbd20ec25ed55e5b5de869e5436eb1
 
 mime-types@^2.1.12, mime-types@~2.1.7:
-  version "2.1.14"
-  resolved mime-types-2.1.14.tgz#f7ef7d97583fcaf3b7d282b6f8b5679dab1e94ee
+  version "2.1.15"
+  resolved mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed
   dependencies:
-    mime-db "~1.26.0"
+    mime-db "~1.27.0"
 
 minimalistic-assert@^1.0.0:
   version "1.0.0"
@@ -1693,20 +1693,9 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tunnel@0.0.4:
-  version "0.0.4"
-  resolved tunnel-0.0.4.tgz#2d3785a158c174c9a16dc2c046ec5fc5f1742213
-
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64
-
-typed-rest-client@^0.9.0:
-  version "0.9.0"
-  resolved typed-rest-client-0.9.0.tgz#f768cc0dc3f4e950f06e04825c36b3e7834aa1f2
-  dependencies:
-    tunnel "0.0.4"
-    underscore "1.8.3"
 
 typescript@^2.2.1:
   version "2.2.1"
@@ -1732,10 +1721,6 @@ uglify-to-browserify@~1.0.0:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81
-
-underscore@1.8.3:
-  version "1.8.3"
-  resolved underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022
 
 url@^0.11.0:
   version "0.11.0"

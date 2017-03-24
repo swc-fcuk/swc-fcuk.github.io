@@ -6,7 +6,10 @@ var outPath = path.join(__dirname, './dist');
 
 module.exports = {
     //cache: true,
-    entry: './src/index.tsx',
+    entry: {
+        main: './src/index.tsx',
+        //html: './index.html'
+    },
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist"
@@ -21,6 +24,14 @@ module.exports = {
                     'awesome-typescript-loader'
                 ]
             },
+            {
+                test: /\.json$/,
+                use: 'json-loader'
+            },
+            // static assets
+            { test: /\.html$/, loader: 'html-loader' },
+            { test: /\.png$/, loader: 'url-loader?limit=10000' },
+            { test: /\.jpg$/, loader: 'file-loader' },
         ],
     },
 
@@ -40,3 +51,5 @@ module.exports = {
         'react-dom': 'ReactDOM'
     }
 };
+
+

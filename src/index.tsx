@@ -93,15 +93,15 @@ var App = React.createClass({
     getInitialState() {
         var mode = getMode();
 
-        var groupKey = function(data: any) {
+        var groupKey = function (data: any) {
             return data.name[0].toUpperCase();
         };
 
-        var groupData = function(data: any) {
+        var groupData = function (data: any) {
             return { title: groupKey(data) };
         };
 
-        var sorter = function(a: any, b: any) {
+        var sorter = function (a: any, b: any) {
             if (a.name < b.name) {
                 return -1;
             } else if (a.name > b.name) {
@@ -189,6 +189,7 @@ var App = React.createClass({
                         paneOpened={this.state.paneOpened}
                         onInvoked={this.handleTogglePane} />
                     {this.renderBackButton()}
+                    {/* TODO: add test for the html title */}
                     <h3 className="win-h3" style={{ display: "inline-block", marginLeft: 5 }}>fcuk @ Star Wars: Commander</h3>
                 </div>
                 <ReactWinJS.SplitView

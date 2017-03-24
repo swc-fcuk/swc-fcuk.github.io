@@ -25,7 +25,7 @@ export default class ProfilePicture extends React.Component<ProfilePictureProps,
                 backgroundSize: "cover",
                 display: "inline-block"
             }}>
-                <img src="src/images/profile.png" height={size} width={size} />
+                <img src="assets/img/profile.png" height={size} width={size} />
             </div>
         );
     }
