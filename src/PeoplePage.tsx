@@ -44,10 +44,10 @@ var PeoplePage = React.createClass({
         this.props.onPeopleChanged(people);
     },
     handleContentAnimating(eventObject: any) {
-        // Disable ListView's entrance animation
-        if (eventObject.detail.type === "entrance") {
-            eventObject.preventDefault();
-        }
+        //// Disable ListView's entrance animation
+        //if (eventObject.detail.type === "entrance") {
+        //    eventObject.preventDefault();
+        //}
     },
     personRenderer: ReactWinJS.reactRenderer(function (person: any) {
         return (
