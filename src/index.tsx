@@ -168,7 +168,8 @@ var App = React.createClass({
                     icon="comment"
                     onInvoked={this.handleCommandInvoked.bind(null, ["new"])} />
                 <ReactWinJS.SplitView.Command
-                    label="Groups"
+                    /* TODO: same as the text? */
+                    label="Some other view."
                     icon="people"
                     onInvoked={this.handleCommandInvoked.bind(null, ["groups"])} />
 

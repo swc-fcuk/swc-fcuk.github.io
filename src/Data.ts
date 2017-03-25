@@ -64,7 +64,7 @@ function genPerson() {
         id: nextPersonId++,
         name: genName(),
         status: randomElement(statuses),
-        statusHoursAgo: randomElement([2, 3, 4, 5, 6, 7, 8, 9]),
+        score: randomElement([2, 3, 4, 5, 6, 7, 8, 9]),
         picture: randomElement(posters),
         mobilePhone: genPhoneNumber(),
         workPhone: genPhoneNumber()
@@ -78,13 +78,27 @@ people = []
 var person: Object
 squad.members.forEach(element => {
     person = {
-        id: element.playerId,
+        attacks: element.attacksWon,
+        defenses: element.defensesWon,
+        planetary: element.hasPlanetaryCommand,
+        hq: element.hqLevel,
+        officer: element.isOfficer,
+        joinDate: element.joinDate,
+        login: element.lastLoginTime,
+        updated: element.lastUpdated,
         name: element.name,
-        status: element.hqLevel,
-        statusHoursAgo: element.score,
-        picture: randomElement(posters),
-        mobilePhone: element.lastLoginTime,
-        workPhone: element.xp
+        planet: element.planet,
+        id: element.playerId,
+        rank: element.rank,
+        reputationInvested: element.reputationInvested,
+        score: element.score,
+        tournamentRating: element.tournamentRating,
+        tournamentScores: element.tournamentScores,
+        troopsDonated: element.troopsDonated,
+        troopsReceived: element.troopsReceived,
+        warParty: element.warParty,
+        xp: element.xp,
+        picture: randomElement(posters)
     }
     people.push(person)
 });

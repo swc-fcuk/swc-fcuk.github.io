@@ -29,20 +29,20 @@ var PeoplePage = React.createClass({
             this.props.onNavigate(indices.length === 1 && !this.state.selectionMode ? ["people", indices[0]] : ["people"]);
         }.bind(this), 0);
     },
-    handleDelete() {
-        var people = this.props.people;
-        var indices = this.state.selectedPeople;
-        indices.sort();
-        indices.reverse();
-        indices.forEach(function (i: number) {
-            people.splice(i, 1);
-        });
-        this.setState({
-            selectedPeople: [],
-            selectionMode: false
-        });
-        this.props.onPeopleChanged(people);
-    },
+    //handleDelete() {
+    //    var people = this.props.people;
+    //    var indices = this.state.selectedPeople;
+    //    indices.sort();
+    //    indices.reverse();
+    //    indices.forEach(function (i: number) {
+    //        people.splice(i, 1);
+    //    });
+    //    this.setState({
+    //        selectedPeople: [],
+    //        selectionMode: false
+    //    });
+    //    this.props.onPeopleChanged(people);
+    //},
     handleContentAnimating(eventObject: any) {
         //// Disable ListView's entrance animation
         //if (eventObject.detail.type === "entrance") {
@@ -53,7 +53,13 @@ var PeoplePage = React.createClass({
         return (
             <div>
                 <ProfilePicture backgroundUrl={person.data.picture} size={34} />
-                <span className="name">{person.data.name}</span>
+                <span className="name">{person.data.name}</span><br />
+                <span className="HQ">HQ: {person.data.status} </span>
+                <span className="Rank">Rank: {person.data.rank} </span>
+                <span className="XP">XP: {person.data.xp} </span>
+                <span className="Score">Score: {person.data.score}</span>
+                <br />
+                <span className="reputationInvested">reputation invested: {person.data.reputationInvested}</span><br />
             </div>
         );
     }),
@@ -103,7 +109,7 @@ var PeoplePage = React.createClass({
                                 <span className="message">
                                     {selectedPerson.status}
                                 </span>
-                                <span className="source">{selectedPerson.statusHoursAgo} hours ago</span>
+                                <span className="source">{selectedPerson.score} hours ago</span>
                             </div>
                         </div>
                     </div>

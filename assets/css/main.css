@@ -38,14 +38,17 @@
 
 #app .peopleSearchPane .peopleListView .win-container {
     margin: 0;
-    height: 48px;
+    /*height: 48px;*/
+    height: 100px;
 }
 
 #app .peopleSearchPane .peopleListView .win-item {
-    height: 40px;
+    /*height: 40px;*/
+    height: 92px;
     padding-top: 8px;
     width: calc(100% - 12px);
     padding-left: 12px;
+    font-size: 14px
 }
 
 #app .peopleSearchPane .peopleListView .win-item .profilePicture {
@@ -62,6 +65,7 @@
 
 #app .peopleSearchPane .peopleListView .win-item .name {
     vertical-align: middle;
+    font-size: 18px
 }
 
 #app .peopleSearchPane .peopleListView .win-groupheadercontainer {
@@ -204,3 +208,5 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }*/
+
+.HQ .reputationInvested {}
