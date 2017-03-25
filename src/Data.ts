@@ -77,7 +77,7 @@ var people = genArray(personCount, personCount, genPerson);
 people = []
 var person: Object
 squad.members.forEach(element => {
-    people.push({
+    person = {
         attacks: element.attacksWon,
         defenses: element.defensesWon,
         planetary: element.hasPlanetaryCommand,
@@ -100,9 +100,40 @@ squad.members.forEach(element => {
         warParty: element.warParty,
         xp: element.xp,
         picture: randomElement(posters)
-    })
+    }
+    people.push(person)
 });
 
-module.exports = {
+//var memberDetails: Array<Object>
+
+var memberDetails = []
+memberDetails.push(require('./../data/' + squad.members[0].playerId + '@1490386192.json'));
+memberDetails.push(require('./../data/2da37e9d-b0b4-11e6-913a-06cb44004f79@1490386314.json'));
+memberDetails.push(require('./../data/9fade00d-d859-11e6-b64c-06a77e004fbb@1490386446.json'));
+
+var members: Array<Object> = []
+var member: Object
+memberDetails.forEach(element => {
+    member = {
+        timeZoneOffset: element.playerModel.timeZoneOffset,
+        scalars: element.scalars,
+        troops: element.playerModel.upgrades.troop
+    }
+    members.push(member);
+    console.log(member)
+});
+
+console.log({
+    people: people,
+    members: members
+})
+
+console.log({
     people: people
+})
+
+
+module.exports = {
+    people: people,
+    members: members
 };

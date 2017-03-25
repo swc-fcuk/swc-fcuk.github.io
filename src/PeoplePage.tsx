@@ -111,8 +111,9 @@ var PeoplePage = React.createClass({
                             <ProfilePicture backgroundUrl={selectedPerson.picture} size={100} />
                             <div className="profileStatus">
                                 <span className="message">{selectedPerson.score} </span>
-                                <span className="source">login: {selectedPerson.updated}</span>
-                                <span className="source">updated: {selectedPerson.login}</span>
+                                <span className="login">login: {selectedPerson.updated}</span>
+                                <span className="updated">updated: {selectedPerson.login}</span>
+                                <span className="timeZoneOffset">timeZoneOffset: {}</span>
                             </div>
                         </div>
                     </div>
@@ -131,6 +132,7 @@ var PeoplePage = React.createClass({
     propTypes: {
         mode: React.PropTypes.oneOf(["small", "medium", "large"]).isRequired,
         people: React.PropTypes.object.isRequired,
+        //members: React.PropTypes.object.isRequired,
         location: React.PropTypes.array.isRequired,
         onNavigate: React.PropTypes.func.isRequired,
         onPeopleChanged: React.PropTypes.func.isRequired
