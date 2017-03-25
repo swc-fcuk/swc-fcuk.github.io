@@ -54,11 +54,15 @@ var PeoplePage = React.createClass({
             <div>
                 <ProfilePicture backgroundUrl={person.data.picture} size={34} />
                 <span className="name">{person.data.name}</span><br />
-                <span className="HQ">HQ: {person.data.status} </span>
+                <span className="HQ">HQ: {person.data.hq} </span>
                 <span className="Rank">Rank: {person.data.rank} </span>
                 <span className="XP">XP: {person.data.xp} </span>
                 <span className="Score">Score: {person.data.score}</span>
                 <br />
+                <span className="Attacks">Attacks: {person.data.attacks} </span>
+                <span className="Defenses">Defenses: {person.data.defenses}</span>
+                <br />
+
                 <span className="reputationInvested">reputation invested: {person.data.reputationInvested}</span><br />
             </div>
         );
@@ -106,10 +110,9 @@ var PeoplePage = React.createClass({
                         <div className="personInfo">
                             <ProfilePicture backgroundUrl={selectedPerson.picture} size={100} />
                             <div className="profileStatus">
-                                <span className="message">
-                                    {selectedPerson.status}
-                                </span>
-                                <span className="source">{selectedPerson.score} hours ago</span>
+                                <span className="message">{selectedPerson.score} </span>
+                                <span className="source">login: {selectedPerson.updated}</span>
+                                <span className="source">updated: {selectedPerson.login}</span>
                             </div>
                         </div>
                     </div>

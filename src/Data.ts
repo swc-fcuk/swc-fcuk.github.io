@@ -77,12 +77,13 @@ var people = genArray(personCount, personCount, genPerson);
 people = []
 var person: Object
 squad.members.forEach(element => {
-    person = {
+    people.push({
         attacks: element.attacksWon,
         defenses: element.defensesWon,
         planetary: element.hasPlanetaryCommand,
         hq: element.hqLevel,
         officer: element.isOfficer,
+        ownner: element.isOwner,
         joinDate: element.joinDate,
         login: element.lastLoginTime,
         updated: element.lastUpdated,
@@ -99,8 +100,7 @@ squad.members.forEach(element => {
         warParty: element.warParty,
         xp: element.xp,
         picture: randomElement(posters)
-    }
-    people.push(person)
+    })
 });
 
 module.exports = {
