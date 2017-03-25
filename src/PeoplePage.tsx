@@ -110,21 +110,27 @@ var PeoplePage = React.createClass({
                         <div className="personInfo">
                             <ProfilePicture backgroundUrl={selectedPerson.picture} size={100} />
                             <div className="profileStatus">
-                                <span className="message">{selectedPerson.score} </span>
-                                <span className="login">login: {selectedPerson.updated}</span>
-                                <span className="updated">updated: {selectedPerson.login}</span>
-                                <span className="timeZoneOffset">timeZoneOffset: {}</span>
+                                <div className="updated">attacksWon: {selectedPerson.attacks}</div>
+                                <div className="updated">defensesWon: {selectedPerson.defenses}</div>
+                                <div className="updated">hasPlanetaryCommand: {selectedPerson.planetary}</div>
+                                <div className="updated">hqLevel: {selectedPerson.hq}</div>
+                                <div className="updated">joinDate: {selectedPerson.joinDate}</div>
+                                <div className="updated">lastLoginTime: {selectedPerson.login}</div>
+                                <div className="updated">lastUpdated: {selectedPerson.updated}</div>
+                                <div className="updated">planet: {selectedPerson.planet}</div>
+                                <div className="updated">playerId: {selectedPerson.id}</div>
+                                <div className="updated">rank: {selectedPerson.rank}</div>
+                                <div className="updated">reputationInvested: {selectedPerson.reputationInvested}</div>
+                                <div className="updated">rank: {selectedPerson.rank}</div>
+                                <div className="updated">score: {selectedPerson.score}</div>
+                                <div className="updated">troopsDonated: {selectedPerson.troopsDonated}</div>
+                                <div className="updated">troopsReceived: {selectedPerson.troopsReceived}</div>
+                                <div className="updated">XP: {selectedPerson.xp}</div>
                             </div>
                         </div>
                     </div>
                     <div className="separator" />
-                    <div className="profileContent">
-                        <ul>
-                            <li><span className="messageIcon" />Message</li>
-                            <li><span className="emailIcon" />Email work</li>
-                            <li><span className="mapIcon" />Map home</li>
-                        </ul>
-                    </div>
+
                 </div>
             );
         }
