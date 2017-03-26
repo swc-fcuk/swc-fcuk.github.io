@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@types/form-data@*":
+  version "0.0.33"
+  resolved "@types-form-data-0.0.33.tgz#c9ac85b2a5fd18435b8c85d9ecb50e6d6c893ff8"
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "7.0.10"
   resolved "@types-node-7.0.10.tgz#d860abb18c1b58b552c7c6cd8b2ba7adf6546fa3"
@@ -15,6 +21,13 @@
 "@types/react@*", "@types/react@^15.0.18":
   version "15.0.18"
   resolved "@types-react-15.0.18.tgz#258b1cda9d9aa875d68d317238c31eefdaa1a557"
+
+"@types/request@^0.0.42":
+  version "0.0.42"
+  resolved "@types-request-0.0.42.tgz#e47a53bf0b130464854fb693297746a0c0479c31"
+  dependencies:
+    "@types/form-data" "*"
+    "@types/node" "*"
 
 "@types/source-map@*":
   version "0.5.0"

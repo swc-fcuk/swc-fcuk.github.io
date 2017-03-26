@@ -1,0 +1,1725 @@
+{
+    "protocolVersion": 60,
+    "data": [
+        {
+            "requestId": 17,
+            "result": null,
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490484371
+                        },
+                        "messageId": "70b94413-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490484375
+                        },
+                        "messageId": "70b94412-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ]
+            },
+            "status": 0
+        },
+        {
+            "requestId": 18,
+            "result": {
+                "faction": null,
+                "warMap": {
+                    "next": 85,
+                    "planet": "planet24",
+                    "buildings": [
+                        {
+                            "key": "bld_13",
+                            "x": -4,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_14",
+                            "x": -4,
+                            "z": 2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_15",
+                            "x": -4,
+                            "z": 1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_16",
+                            "x": -4,
+                            "z": 0,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_17",
+                            "x": -4,
+                            "z": -1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_18",
+                            "x": -4,
+                            "z": -2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_19",
+                            "x": -4,
+                            "z": -3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_20",
+                            "x": -4,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_1",
+                            "x": -2,
+                            "z": -2,
+                            "uid": "empireHQ3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_64",
+                            "x": -3,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_68",
+                            "x": 1,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_67",
+                            "x": 0,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_66",
+                            "x": -1,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_65",
+                            "x": -2,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_2",
+                            "x": 2,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_59",
+                            "x": -3,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_60",
+                            "x": -2,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_63",
+                            "x": 1,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_62",
+                            "x": 0,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_61",
+                            "x": -1,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_11",
+                            "x": 2,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_25",
+                            "x": -10,
+                            "z": 2,
+                            "uid": "empireStarport1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_70",
+                            "x": -10,
+                            "z": -8,
+                            "uid": "empireStarport1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_69",
+                            "x": -9,
+                            "z": -2,
+                            "uid": "empireFactory1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_55",
+                            "x": 5,
+                            "z": -2,
+                            "uid": "empireSquadBuilding2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_71",
+                            "x": -4,
+                            "z": -9,
+                            "uid": "empireBarracks1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_54",
+                            "x": 2,
+                            "z": -9,
+                            "uid": "empireMaterialsStorage2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_23",
+                            "x": 2,
+                            "z": 7,
+                            "uid": "empireCreditStorage3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_72",
+                            "x": 5,
+                            "z": -9,
+                            "uid": "empireCreditStorage3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_9",
+                            "x": 9,
+                            "z": -3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_8",
+                            "x": 9,
+                            "z": -2,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_7",
+                            "x": 9,
+                            "z": -1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_6",
+                            "x": 9,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_5",
+                            "x": 9,
+                            "z": 2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_26",
+                            "x": 12,
+                            "z": 4,
+                            "uid": "empireDroidHut1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_4",
+                            "x": 9,
+                            "z": 1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_3",
+                            "x": 9,
+                            "z": 0,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_84",
+                            "x": 5,
+                            "z": 7,
+                            "uid": "empireMaterialsStorage2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_83",
+                            "x": 4,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_24",
+                            "x": 9,
+                            "z": 7,
+                            "uid": "empireCreditGenerator3",
+                            "lastCollectTime": 1488830145,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_22",
+                            "x": 3,
+                            "z": 1,
+                            "uid": "empireRapidFireTurret2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_88",
+                            "x": 11,
+                            "z": -9,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_21",
+                            "x": 3,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_87",
+                            "x": 8,
+                            "z": -9,
+                            "uid": "empireCreditGenerator3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_82",
+                            "x": 5,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_81",
+                            "x": 6,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_80",
+                            "x": 7,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_58",
+                            "x": -1,
+                            "z": -9,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": 1488830143,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_75",
+                            "x": 5,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_53",
+                            "x": -1,
+                            "z": 7,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": 1488830146,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_52",
+                            "x": 3,
+                            "z": -2,
+                            "uid": "empireRapidFireTurret2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_74",
+                            "x": 4,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_73",
+                            "x": 11,
+                            "z": -1,
+                            "uid": "empireOffenseLab3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_57",
+                            "x": 12,
+                            "z": -6,
+                            "uid": "empireCreditGenerator2",
+                            "lastCollectTime": 1488830144,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_79",
+                            "x": 8,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_12",
+                            "x": 3,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_78",
+                            "x": 8,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_77",
+                            "x": 7,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_10",
+                            "x": 9,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_76",
+                            "x": 6,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_56",
+                            "x": -4,
+                            "z": 7,
+                            "uid": "empireBarracks1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        }
+                    ]
+                },
+                "champions": {},
+                "donatedTroops": {
+                    "troopDark3": {
+                        "ba27b37e-0eb6-11e7-9236-063864004f75": 2
+                    }
+                },
+                "lastContractUpdateTime": null,
+                "warStats": null,
+                "rewards": {},
+                "name": "Dragan",
+                "turns": 1,
+                "victoryPoints": 3,
+                "score": 6,
+                "level": 3,
+                "currentlyDefending": null,
+                "scoutingStatus": null,
+                "equipment": null,
+                "id": "089eb96b-026d-11e7-953a-06033c004f77"
+            },
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490484371
+                        },
+                        "messageId": "70bcc688-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490484375
+                        },
+                        "messageId": "70bcc687-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ]
+            },
+            "status": 0
+        },
+        {
+            "requestId": 19,
+            "result": {
+                "startTime": 1490392275,
+                "prepGraceStartTime": 1490478555,
+                "prepEndTime": 1490478675,
+                "actionGraceStartTime": 1490564775,
+                "actionEndTime": 1490565075,
+                "cooldownEndTime": 1490651475,
+                "planet": "planet24",
+                "empireGuild": null,
+                "rebelsGuild": null,
+                "buffBases": [
+                    {
+                        "currentlyDefending": {
+                            "opponentId": "779a335e-7216-11e6-8b58-06033c004f77",
+                            "battleId": "5f358752-11ac-11e7-bad8-061c98004f78",
+                            "startTime": 1490481766,
+                            "expiration": 1490481832,
+                            "missionId": "sw_tat_outpost_e_3",
+                            "attackerDeployablesSpent": {},
+                            "combatEncounter": null,
+                            "manifestVersion": null,
+                            "lootCreditsAvailable": null,
+                            "lootMaterialsAvailable": null,
+                            "lootContrabandAvailable": null,
+                            "battleActions": [],
+                            "lootBuildingCreditsMap": {},
+                            "lootBuildingMaterialsMap": {},
+                            "lootBuildingContrabandMap": {},
+                            "donatedTroops": {},
+                            "donatedTroopsAttacker": {},
+                            "champions": {},
+                            "disabledBuildings": [],
+                            "simSeedA": 0,
+                            "simSeedB": 0,
+                            "cmsVersion": "1813122029",
+                            "battleVersion": "21.0",
+                            "revengeForBattle": null,
+                            "attackerDeploymentData": null,
+                            "defenderDeploymentData": null,
+                            "attackerWarBuffs": null,
+                            "defenderWarBuffs": null,
+                            "attackerEquipment": null,
+                            "defenderEquipment": null
+                        },
+                        "battleInProgress": false,
+                        "buffUid": "warBuff1",
+                        "level": 3,
+                        "ownerId": "568c7e7c-9ddd-11e6-abea-06c66a004f76"
+                    },
+                    {
+                        "currentlyDefending": null,
+                        "battleInProgress": false,
+                        "buffUid": "warBuff4",
+                        "level": 0,
+                        "ownerId": null
+                    },
+                    {
+                        "currentlyDefending": {
+                            "opponentId": "779a335e-7216-11e6-8b58-06033c004f77",
+                            "battleId": "9c14e63a-11a9-11e7-b35e-06e6ee004fbc",
+                            "startTime": 1490480580,
+                            "expiration": 1490480631,
+                            "missionId": "sw_erk_outpost_s_1",
+                            "attackerDeployablesSpent": {},
+                            "combatEncounter": null,
+                            "manifestVersion": null,
+                            "lootCreditsAvailable": null,
+                            "lootMaterialsAvailable": null,
+                            "lootContrabandAvailable": null,
+                            "battleActions": [],
+                            "lootBuildingCreditsMap": {},
+                            "lootBuildingMaterialsMap": {},
+                            "lootBuildingContrabandMap": {},
+                            "donatedTroops": {},
+                            "donatedTroopsAttacker": {},
+                            "champions": {},
+                            "disabledBuildings": [],
+                            "simSeedA": 0,
+                            "simSeedB": 0,
+                            "cmsVersion": "1813122029",
+                            "battleVersion": "21.0",
+                            "revengeForBattle": null,
+                            "attackerDeploymentData": null,
+                            "defenderDeploymentData": null,
+                            "attackerWarBuffs": null,
+                            "defenderWarBuffs": null,
+                            "attackerEquipment": null,
+                            "defenderEquipment": null
+                        },
+                        "battleInProgress": false,
+                        "buffUid": "warBuff5",
+                        "level": 1,
+                        "ownerId": "568c7e7c-9ddd-11e6-abea-06c66a004f76"
+                    }
+                ],
+                "actionsStarted": false,
+                "rewardsProcessed": false,
+                "guild": {
+                    "guildId": "568c7e7c-9ddd-11e6-abea-06c66a004f76",
+                    "name": "fcuk",
+                    "faction": "empire",
+                    "icon": "SquadSymbols_11",
+                    "participants": [
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "dc7b87a2-dcc5-11e6-97e5-06cb44004f79",
+                                "battleId": "c84e4ce0-11a5-11e7-ba69-06c66a004f76",
+                                "startTime": 1490478936,
+                                "expiration": 1490479176,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopMarksman4": 1,
+                                        "troopSoldier4": 25,
+                                        "troopDesertSkiff3": 1,
+                                        "troopAAT14": 4
+                                    },
+                                    "hero": {
+                                        "troopHeroLeia3": 1,
+                                        "troopHeroChewbacca3": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackYWing2": 6
+                                    },
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopEmpireSpeeder5": 2,
+                                        "troopTechnician5": 2,
+                                        "troopATST5": 1
+                                    },
+                                    "hero": {
+                                        "troopHeroCrimsonGuard5": 1,
+                                        "troopHeroATMP5": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "2da37e9d-b0b4-11e6-913a-06cb44004f79",
+                            "name": "Jaqueline",
+                            "level": 5,
+                            "turns": 2,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 251,
+                            "defensesWon": 121
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "cbe8ed43-05c7-11e7-ba0b-060a32004f8c",
+                            "name": "rose",
+                            "level": 3,
+                            "turns": 1,
+                            "victoryPoints": 3,
+                            "score": 6,
+                            "attacksWon": 10,
+                            "defensesWon": 0
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "3acbde27-f4d1-11e6-804c-069da4004f8b",
+                                "battleId": "e7bf58ea-11b1-11e7-bad8-061c98004f78",
+                                "startTime": 1490484143,
+                                "expiration": 1490484240,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopJuggernaut5": 2,
+                                        "troopSoldier4": 26,
+                                        "troopMedic2": 2
+                                    },
+                                    "hero": {
+                                        "troopHeroChewbacca2": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackXWing2": 3
+                                    },
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troop2MTank5": 3,
+                                        "troopStorm5": 20,
+                                        "troopTechnician5": 5,
+                                        "troopDewback5": 4
+                                    },
+                                    "hero": {
+                                        "troopHeroATAT5": 1,
+                                        "troopHeroATST5": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackTieInterceptor5": 5
+                                    },
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [],
+                                "defenderWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "72ed2610-da97-11e6-b64c-06a77e004fbb",
+                            "name": "Darth Enego",
+                            "level": 6,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 188,
+                            "defensesWon": 4
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "f647afde-d43f-11e6-8f8c-06c66a004f76",
+                                "battleId": "48c952bb-11ac-11e7-977a-063864004f75",
+                                "startTime": 1490481729,
+                                "expiration": 1490481783,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopBantha5": 2,
+                                        "troopJuggernaut6": 4
+                                    },
+                                    "hero": {
+                                        "troopHeroLeia5": 1,
+                                        "troopHeroHanSolo5": 1,
+                                        "troopHeroChewbacca6": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopStorm5": 6,
+                                        "troopTechnician5": 2,
+                                        "troopDark5": 5,
+                                        "troopATMP5": 2,
+                                        "troopATST5": 2
+                                    },
+                                    "hero": {
+                                        "troopHeroATAT5": 1,
+                                        "troopHeroATST5": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackTieFighter5": 2,
+                                        "specialAttackTieBomber5": 2,
+                                        "specialAttackTieInterceptor5": 2
+                                    },
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1"
+                                ],
+                                "defenderWarBuffs": [
+                                    "warBuff5"
+                                ],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "1ebf2fe5-d76a-11e6-8f8c-06c66a004f76",
+                            "name": "Lófütyi",
+                            "level": 6,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 53,
+                            "defensesWon": 11
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "3acbde27-f4d1-11e6-804c-069da4004f8b",
+                                "battleId": "17feff0b-11a6-11e7-b35e-06e6ee004fbc",
+                                "startTime": 1490479070,
+                                "expiration": 1490479135,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopJuggernaut5": 2,
+                                        "troopSoldier4": 24,
+                                        "troopMedic2": 2
+                                    },
+                                    "hero": {
+                                        "troopHeroHanSolo4": 1,
+                                        "troopHeroChewbacca2": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackXWing2": 3
+                                    },
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troop2MTank3": 2,
+                                        "troopDark3": 6,
+                                        "troopStorm3": 5,
+                                        "troopDewback3": 1
+                                    },
+                                    "hero": {
+                                        "troopHeroATMP2": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackTieFighter2": 3
+                                    },
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "4b379b97-f56b-11e6-91d6-06e6ee004fbc",
+                            "name": "JuanMa",
+                            "level": 5,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 118,
+                            "defensesWon": 2
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "7db8fdb4-01c5-11e7-9191-06dc8c004fbd",
+                            "name": "ннн",
+                            "level": 5,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 179,
+                            "defensesWon": 4
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "f647afde-d43f-11e6-8f8c-06c66a004f76",
+                                "battleId": "13858b22-11ae-11e7-85e1-06dc8c004fbd",
+                                "startTime": 1490482498,
+                                "expiration": 1490482620,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopBantha5": 2,
+                                        "troopJuggernaut6": 4
+                                    },
+                                    "hero": {
+                                        "troopHeroLeia5": 1,
+                                        "troopHeroHanSolo5": 1,
+                                        "troopHeroChewbacca6": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackXWing5": 1
+                                    },
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troop2MTank4": 1,
+                                        "troopStorm5": 2,
+                                        "troopATMP4": 1,
+                                        "troopDark5": 2
+                                    },
+                                    "hero": {
+                                        "troopHeroATST5": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [],
+                                "defenderWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "9fade00d-d859-11e6-b64c-06a77e004fbb",
+                            "name": "BkeII",
+                            "level": 5,
+                            "turns": 3,
+                            "victoryPoints": 1,
+                            "score": 0,
+                            "attacksWon": 259,
+                            "defensesWon": 21
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "7cec7cfc-fc08-11e6-8147-063864004f75",
+                            "name": "Desigur",
+                            "level": 5,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 30,
+                            "defensesWon": 9
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "0476b083-bbc4-11e6-8233-061c98004f78",
+                            "name": "scar78",
+                            "level": 6,
+                            "turns": 1,
+                            "victoryPoints": 3,
+                            "score": 5,
+                            "attacksWon": 264,
+                            "defensesWon": 35
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "ccfd90b3-d858-11e6-8705-061c98004f78",
+                            "name": "Ramsses",
+                            "level": 7,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 234,
+                            "defensesWon": 28
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "089eb96b-026d-11e7-953a-06033c004f77",
+                            "name": "Dragan",
+                            "level": 3,
+                            "turns": 1,
+                            "victoryPoints": 3,
+                            "score": 6,
+                            "attacksWon": 34,
+                            "defensesWon": 1
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "3076de44-a12f-11e6-85c9-060a32004f8c",
+                            "name": "Quasar",
+                            "level": 7,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 4,
+                            "defensesWon": 65
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "ba27b37e-0eb6-11e7-9236-063864004f75",
+                            "name": "whitebuffalo",
+                            "level": 4,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 56,
+                            "defensesWon": 2
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "53efb8da-4105-11e6-ac60-063864004f75",
+                            "name": "yuuto",
+                            "level": 7,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 890,
+                            "defensesWon": 126
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "779a335e-7216-11e6-8b58-06033c004f77",
+                            "name": "2tee2",
+                            "level": 8,
+                            "turns": 1,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 1410,
+                            "defensesWon": 154
+                        }
+                    ]
+                },
+                "rival": {
+                    "guildId": "5959dc5b-19f2-11e6-9a6f-060a32004f8c",
+                    "name": "FORCE-BLACKRAIN",
+                    "faction": "rebel",
+                    "icon": "SquadSymbols_13",
+                    "participants": [
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "0476b083-bbc4-11e6-8233-061c98004f78",
+                                "battleId": "ef9d50cb-11b0-11e7-bb9b-06033c004f77",
+                                "startTime": 1490483726,
+                                "expiration": 1490483846,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopSecurityDroid1": 1,
+                                        "troopHeavyStorm6": 3,
+                                        "troopEmpireTognath1": 1,
+                                        "troop2MTank5": 2,
+                                        "troopStorm6": 7,
+                                        "troopTechnician5": 2,
+                                        "troopShock1": 2,
+                                        "troopATST5": 1,
+                                        "troopDark6": 4
+                                    },
+                                    "hero": {
+                                        "troopHeroATST5": 1,
+                                        "troopHeroATAT6": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackTieBomber1": 1,
+                                        "specialAttackAtmosMig1": 3,
+                                        "specialAttackTieFighter5": 1
+                                    },
+                                    "champion": {
+                                        "troopChampionEmpireDroideka1": 1
+                                    }
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopHailfire7": 2,
+                                        "troopMedic7": 1,
+                                        "troopJuggernaut7": 1,
+                                        "troopVanguard3": 1,
+                                        "troopSoldier7": 40,
+                                        "troopDesertSkiff7": 1
+                                    },
+                                    "hero": {
+                                        "troopHeroChewbacca7": 1,
+                                        "troopHeroLeia7": 1,
+                                        "troopHeroR2D27": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackZ957": 1,
+                                        "specialAttackBWing7": 6
+                                    },
+                                    "champion": {
+                                        "troopChampionRebelDroideka2": 0
+                                    }
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "ba4d3e48-8352-11e6-94fe-06cb44004f79",
+                            "name": "Talon Karrde",
+                            "level": 7,
+                            "turns": 3,
+                            "victoryPoints": 1,
+                            "score": 0,
+                            "attacksWon": 765,
+                            "defensesWon": 64
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "a4b08e4c-3f4b-11e6-91e4-061c98004f78",
+                            "name": "QuintusDel",
+                            "level": 6,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 228,
+                            "defensesWon": 69
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "3acbde27-f4d1-11e6-804c-069da4004f8b",
+                            "name": "Trident",
+                            "level": 6,
+                            "turns": 1,
+                            "victoryPoints": 3,
+                            "score": 3,
+                            "attacksWon": 39,
+                            "defensesWon": 5
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "cfbc34c8-0924-11e7-ba0b-060a32004f8c",
+                            "name": "gabesz33",
+                            "level": 4,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 29,
+                            "defensesWon": 0
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "f647afde-d43f-11e6-8f8c-06c66a004f76",
+                            "name": "skimaster",
+                            "level": 6,
+                            "turns": 0,
+                            "victoryPoints": 3,
+                            "score": 5,
+                            "attacksWon": 372,
+                            "defensesWon": 26
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "f7f0cb5f-acd2-11e4-a82d-06dc8c004fbd",
+                            "name": "chawolf",
+                            "level": 6,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 535,
+                            "defensesWon": 106
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "0476b083-bbc4-11e6-8233-061c98004f78",
+                                "battleId": "785a6bc1-11af-11e7-ba69-06c66a004f76",
+                                "startTime": 1490483097,
+                                "expiration": 1490483155,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopHeavyStorm6": 4,
+                                        "troopStorm6": 10,
+                                        "troopTechnician5": 1,
+                                        "troopShock1": 2,
+                                        "troopATAT5": 1,
+                                        "troopDark6": 6
+                                    },
+                                    "hero": {
+                                        "troopHeroATST5": 1,
+                                        "troopHeroATAT6": 1
+                                    },
+                                    "specialAttack": {
+                                        "specialAttackTieBomber1": 1,
+                                        "specialAttackAtmosMig1": 3,
+                                        "specialAttackTieFighter5": 1
+                                    },
+                                    "champion": {
+                                        "troopChampionEmpireDroideka1": 0
+                                    }
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopMarksman4": 1,
+                                        "troopSoldier4": 25,
+                                        "troopDesertSkiff3": 1
+                                    },
+                                    "hero": {
+                                        "troopHeroLeia3": 1,
+                                        "troopHeroChewbacca3": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "dc7b87a2-dcc5-11e6-97e5-06cb44004f79",
+                            "name": "steve",
+                            "level": 6,
+                            "turns": 2,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 4,
+                            "defensesWon": 6
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "cddb9ffb-02b8-11e7-8648-063864004f75",
+                            "name": "Lee Kenobi",
+                            "level": 4,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 2,
+                            "defensesWon": 1
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "852b6981-92ec-11e5-bb79-06a77e004fbb",
+                            "name": "Deldevaudes",
+                            "level": 8,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 1513,
+                            "defensesWon": 178
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "cbe8ed43-05c7-11e7-ba0b-060a32004f8c",
+                                "battleId": "b50f49ef-11aa-11e7-85e1-06dc8c004fbd",
+                                "startTime": 1490481052,
+                                "expiration": 1490481080,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopStorm3": 10,
+                                        "troopDark3": 2,
+                                        "troopEmpireSpeeder3": 5
+                                    },
+                                    "hero": {},
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopSoldier1": 22
+                                    },
+                                    "hero": {
+                                        "troopHeroHanSolo1": 1,
+                                        "troopHeroChewbacca1": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "6a5e63bb-f4fe-11e6-91d6-06e6ee004fbc",
+                            "name": "MISTERSNIPER",
+                            "level": 3,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 3,
+                            "defensesWon": 1
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "893401fc-fec8-11e6-b985-06a77e004fbb",
+                            "name": "Gula",
+                            "level": 4,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 52,
+                            "defensesWon": 3
+                        },
+                        {
+                            "currentlyDefending": null,
+                            "battleInProgress": false,
+                            "id": "726945ce-015c-11e7-953a-06033c004f77",
+                            "name": "52067",
+                            "level": 4,
+                            "turns": 3,
+                            "victoryPoints": 3,
+                            "score": 0,
+                            "attacksWon": 15,
+                            "defensesWon": 0
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "089eb96b-026d-11e7-953a-06033c004f77",
+                                "battleId": "8b271520-11b0-11e7-b35e-06e6ee004fbc",
+                                "startTime": 1490483534,
+                                "expiration": 1490483606,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopStorm3": 24,
+                                        "troopEmpireSpeeder3": 3
+                                    },
+                                    "hero": {},
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {},
+                                    "hero": {
+                                        "troopHeroHanSolo2": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "3956d1b2-fc46-11e6-bfa6-06033c004f77",
+                            "name": "danny1990",
+                            "level": 3,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 0,
+                            "defensesWon": 0
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "cbe8ed43-05c7-11e7-ba0b-060a32004f8c",
+                                "battleId": "2d99a32d-11ac-11e7-bad8-061c98004f78",
+                                "startTime": 1490481684,
+                                "expiration": 1490481722,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopStorm3": 10,
+                                        "troopDark3": 2,
+                                        "troopEmpireSpeeder3": 5
+                                    },
+                                    "hero": {},
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopWookie2": 2,
+                                        "troopSoldier2": 14
+                                    },
+                                    "hero": {},
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [
+                                    "warBuff1"
+                                ],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "c13f66ca-a2a5-11e6-ab29-06a77e004fbb",
+                            "name": "Blooded Wolf",
+                            "level": 3,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 3,
+                            "defensesWon": 1
+                        },
+                        {
+                            "currentlyDefending": {
+                                "opponentId": "089eb96b-026d-11e7-953a-06033c004f77",
+                                "battleId": "647fa9f0-11aa-11e7-b35e-06e6ee004fbc",
+                                "startTime": 1490480917,
+                                "expiration": 1490480950,
+                                "missionId": null,
+                                "attackerDeployablesSpent": {},
+                                "combatEncounter": null,
+                                "manifestVersion": null,
+                                "lootCreditsAvailable": null,
+                                "lootMaterialsAvailable": null,
+                                "lootContrabandAvailable": null,
+                                "battleActions": [],
+                                "lootBuildingCreditsMap": {},
+                                "lootBuildingMaterialsMap": {},
+                                "lootBuildingContrabandMap": {},
+                                "donatedTroops": {},
+                                "donatedTroopsAttacker": {},
+                                "champions": {},
+                                "disabledBuildings": [],
+                                "simSeedA": 0,
+                                "simSeedB": 0,
+                                "cmsVersion": "1813122029",
+                                "battleVersion": "21.0",
+                                "revengeForBattle": null,
+                                "attackerDeploymentData": {
+                                    "troop": {
+                                        "troopStorm3": 40
+                                    },
+                                    "hero": {},
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "defenderDeploymentData": {
+                                    "troop": {
+                                        "troopWookie1": 3,
+                                        "troopSoldier1": 3
+                                    },
+                                    "hero": {
+                                        "troopHeroChewbacca1": 1
+                                    },
+                                    "specialAttack": {},
+                                    "champion": {}
+                                },
+                                "attackerWarBuffs": [
+                                    "warBuff1",
+                                    "warBuff5"
+                                ],
+                                "defenderWarBuffs": [],
+                                "attackerEquipment": [],
+                                "defenderEquipment": []
+                            },
+                            "battleInProgress": false,
+                            "id": "52edae00-0e45-11e7-8d08-061c98004f78",
+                            "name": "Yoda Halyapin",
+                            "level": 3,
+                            "turns": 3,
+                            "victoryPoints": 0,
+                            "score": 0,
+                            "attacksWon": 2,
+                            "defensesWon": 0
+                        }
+                    ]
+                },
+                "id": "0395397b-10dc-11e7-84ee-06a77e004fbb"
+            },
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490484371
+                        },
+                        "messageId": "70bfacbd-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490484375
+                        },
+                        "messageId": "70bf85ac-11b2-11e7-85e1-06dc8c004fbd",
+                        "messageTime": 1490484371
+                    }
+                ]
+            },
+            "status": 0
+        }
+    ],
+    "serverTimestamp": 1490484375,
+    "serverTime": "2017-03-25T16:26:15-07:00"
+}

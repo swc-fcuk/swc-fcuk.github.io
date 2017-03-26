@@ -1,0 +1,1564 @@
+{
+    "protocolVersion": 60,
+    "data": [
+        {
+            "requestId": 5,
+            "result": {
+                "FACEBOOK": [],
+                "GAMECENTER": [],
+                "GOOGLEPLAY": []
+            },
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490480791
+                        },
+                        "messageId": "1b187749-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480791
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490480795
+                        },
+                        "messageId": "1b187748-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480791
+                    }
+                ]
+            },
+            "status": 0
+        },
+        {
+            "requestId": 8,
+            "result": {
+                "faction": null,
+                "warMap": {
+                    "next": 85,
+                    "planet": "planet24",
+                    "buildings": [
+                        {
+                            "key": "bld_13",
+                            "x": -4,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_14",
+                            "x": -4,
+                            "z": 2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_15",
+                            "x": -4,
+                            "z": 1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_16",
+                            "x": -4,
+                            "z": 0,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_17",
+                            "x": -4,
+                            "z": -1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_18",
+                            "x": -4,
+                            "z": -2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_19",
+                            "x": -4,
+                            "z": -3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_20",
+                            "x": -4,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_1",
+                            "x": -2,
+                            "z": -2,
+                            "uid": "empireHQ3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_64",
+                            "x": -3,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_68",
+                            "x": 1,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_67",
+                            "x": 0,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_66",
+                            "x": -1,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_65",
+                            "x": -2,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_2",
+                            "x": 2,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_59",
+                            "x": -3,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_60",
+                            "x": -2,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_63",
+                            "x": 1,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_62",
+                            "x": 0,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_61",
+                            "x": -1,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_11",
+                            "x": 2,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_25",
+                            "x": -10,
+                            "z": 2,
+                            "uid": "empireStarport1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_70",
+                            "x": -10,
+                            "z": -8,
+                            "uid": "empireStarport1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_69",
+                            "x": -9,
+                            "z": -2,
+                            "uid": "empireFactory1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_55",
+                            "x": 5,
+                            "z": -2,
+                            "uid": "empireSquadBuilding2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_71",
+                            "x": -4,
+                            "z": -9,
+                            "uid": "empireBarracks1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_54",
+                            "x": 2,
+                            "z": -9,
+                            "uid": "empireMaterialsStorage2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_23",
+                            "x": 2,
+                            "z": 7,
+                            "uid": "empireCreditStorage3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_72",
+                            "x": 5,
+                            "z": -9,
+                            "uid": "empireCreditStorage3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_9",
+                            "x": 9,
+                            "z": -3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_8",
+                            "x": 9,
+                            "z": -2,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_7",
+                            "x": 9,
+                            "z": -1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_6",
+                            "x": 9,
+                            "z": 3,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_5",
+                            "x": 9,
+                            "z": 2,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_26",
+                            "x": 12,
+                            "z": 4,
+                            "uid": "empireDroidHut1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_4",
+                            "x": 9,
+                            "z": 1,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_3",
+                            "x": 9,
+                            "z": 0,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_84",
+                            "x": 5,
+                            "z": 7,
+                            "uid": "empireMaterialsStorage2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_83",
+                            "x": 4,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_24",
+                            "x": 9,
+                            "z": 7,
+                            "uid": "empireCreditGenerator3",
+                            "lastCollectTime": 1488830145,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_22",
+                            "x": 3,
+                            "z": 1,
+                            "uid": "empireRapidFireTurret2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_88",
+                            "x": 11,
+                            "z": -9,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_21",
+                            "x": 3,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_87",
+                            "x": 8,
+                            "z": -9,
+                            "uid": "empireCreditGenerator3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_82",
+                            "x": 5,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_81",
+                            "x": 6,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_80",
+                            "x": 7,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_58",
+                            "x": -1,
+                            "z": -9,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": 1488830143,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_75",
+                            "x": 5,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_53",
+                            "x": -1,
+                            "z": 7,
+                            "uid": "empireMaterialsGenerator3",
+                            "lastCollectTime": 1488830146,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_52",
+                            "x": 3,
+                            "z": -2,
+                            "uid": "empireRapidFireTurret2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_74",
+                            "x": 4,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_73",
+                            "x": 11,
+                            "z": -1,
+                            "uid": "empireOffenseLab3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_57",
+                            "x": 12,
+                            "z": -6,
+                            "uid": "empireCreditGenerator2",
+                            "lastCollectTime": 1488830144,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_79",
+                            "x": 8,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_12",
+                            "x": 3,
+                            "z": 3,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_78",
+                            "x": 8,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_77",
+                            "x": 7,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_10",
+                            "x": 9,
+                            "z": -4,
+                            "uid": "empireWall3",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_76",
+                            "x": 6,
+                            "z": -4,
+                            "uid": "empireWall2",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        },
+                        {
+                            "key": "bld_56",
+                            "x": -4,
+                            "z": 7,
+                            "uid": "empireBarracks1",
+                            "lastCollectTime": null,
+                            "currentStorage": 0
+                        }
+                    ]
+                },
+                "champions": {},
+                "donatedTroops": {
+                    "troopDark3": {
+                        "ba27b37e-0eb6-11e7-9236-063864004f75": 2
+                    }
+                },
+                "lastContractUpdateTime": null,
+                "warStats": null,
+                "rewards": {},
+                "name": "Dragan",
+                "turns": 3,
+                "victoryPoints": 3,
+                "score": 0,
+                "level": 3,
+                "currentlyDefending": null,
+                "scoutingStatus": null,
+                "equipment": null,
+                "id": "089eb96b-026d-11e7-953a-06033c004f77"
+            },
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490480793
+                        },
+                        "messageId": "1b1b366e-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480793
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490480795
+                        },
+                        "messageId": "1b1b366d-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480793
+                    }
+                ]
+            },
+            "status": 0
+        },
+        {
+            "requestId": 9,
+            "result": {
+                "name": "fcuk",
+                "icon": "SquadSymbols_11",
+                "description": "https%3a%2f%2fswc-fcuk.github.io%2f",
+                "membershipRestrictions": {
+                    "openEnrollment": true,
+                    "maxSize": 30,
+                    "minScoreAtEnrollment": 0,
+                    "faction": "empire"
+                },
+                "members": [
+                    {
+                        "name": "2tee2",
+                        "isOwner": true,
+                        "isOfficer": true,
+                        "joinDate": 1477748463,
+                        "troopsDonated": 5279,
+                        "troopsReceived": 5529,
+                        "rank": 1,
+                        "hqLevel": 8,
+                        "reputationInvested": 262,
+                        "xp": 1631,
+                        "score": 5725,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 1410,
+                        "defensesWon": 154,
+                        "planet": "planet6",
+                        "lastLoginTime": 1490479316,
+                        "lastUpdated": 1490479319,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "779a335e-7216-11e6-8b58-06033c004f77"
+                    },
+                    {
+                        "name": "Jaqueline",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1487765772,
+                        "troopsDonated": 572,
+                        "troopsReceived": 227,
+                        "rank": 2,
+                        "hqLevel": 5,
+                        "reputationInvested": 55,
+                        "xp": 749,
+                        "score": 1742,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 251,
+                        "defensesWon": 121,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490479593,
+                        "lastUpdated": 1490479597,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "2da37e9d-b0b4-11e6-913a-06cb44004f79"
+                    },
+                    {
+                        "name": "Ramsses",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1484181522,
+                        "troopsDonated": 539,
+                        "troopsReceived": 252,
+                        "rank": 3,
+                        "hqLevel": 7,
+                        "reputationInvested": 95,
+                        "xp": 1237,
+                        "score": 813,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 234,
+                        "defensesWon": 28,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490476078,
+                        "lastUpdated": 1490476085,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "ccfd90b3-d858-11e6-8705-061c98004f78"
+                    },
+                    {
+                        "name": "BkeII",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1484179531,
+                        "troopsDonated": 350,
+                        "troopsReceived": 366,
+                        "rank": 4,
+                        "hqLevel": 5,
+                        "reputationInvested": 48,
+                        "xp": 876,
+                        "score": 810,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 259,
+                        "defensesWon": 21,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490041346,
+                        "lastUpdated": 1490445787,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "9fade00d-d859-11e6-b64c-06a77e004fbb"
+                    },
+                    {
+                        "name": "ннн",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1488735598,
+                        "troopsDonated": 245,
+                        "troopsReceived": 336,
+                        "rank": 5,
+                        "hqLevel": 5,
+                        "reputationInvested": 21,
+                        "xp": 833,
+                        "score": 781,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 198,
+                        "defensesWon": 5,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490474457,
+                        "lastUpdated": 1490474464,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "7db8fdb4-01c5-11e7-9191-06dc8c004fbd"
+                    },
+                    {
+                        "name": "lordroger",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1489027536,
+                        "troopsDonated": 8,
+                        "troopsReceived": 14,
+                        "rank": 6,
+                        "hqLevel": 4,
+                        "reputationInvested": 0,
+                        "xp": 575,
+                        "score": 455,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 91,
+                        "defensesWon": 4,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490466591,
+                        "lastUpdated": 1490467380,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "c0da9a0c-0353-11e7-850d-06cb44004f79"
+                    },
+                    {
+                        "name": "scar78",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1481302386,
+                        "troopsDonated": 1105,
+                        "troopsReceived": 1385,
+                        "rank": 7,
+                        "hqLevel": 6,
+                        "reputationInvested": 171,
+                        "xp": 1242,
+                        "score": 443,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 264,
+                        "defensesWon": 35,
+                        "planet": "planet3",
+                        "lastLoginTime": 1490274511,
+                        "lastUpdated": 1490459915,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "0476b083-bbc4-11e6-8233-061c98004f78"
+                    },
+                    {
+                        "name": "ROMAN",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490177010,
+                        "troopsDonated": 0,
+                        "troopsReceived": 0,
+                        "rank": 8,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 376,
+                        "score": 345,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 47,
+                        "defensesWon": 2,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490176277,
+                        "lastUpdated": 1490478766,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "4c92ebab-088c-11e7-9fcf-06033c004f77"
+                    },
+                    {
+                        "name": "whitebuffalo",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490172111,
+                        "troopsDonated": 46,
+                        "troopsReceived": 37,
+                        "rank": 9,
+                        "hqLevel": 4,
+                        "reputationInvested": 2,
+                        "xp": 561,
+                        "score": 296,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 66,
+                        "defensesWon": 2,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490478779,
+                        "lastUpdated": 1490479687,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "ba27b37e-0eb6-11e7-9236-063864004f75"
+                    },
+                    {
+                        "name": "Dragan",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1488810156,
+                        "troopsDonated": 39,
+                        "troopsReceived": 33,
+                        "rank": 10,
+                        "hqLevel": 3,
+                        "reputationInvested": 11,
+                        "xp": 211,
+                        "score": 267,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 34,
+                        "defensesWon": 1,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490480791,
+                        "lastUpdated": 1490480795,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "089eb96b-026d-11e7-953a-06033c004f77"
+                    },
+                    {
+                        "name": "123456789",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1489881925,
+                        "troopsDonated": 27,
+                        "troopsReceived": 14,
+                        "rank": 11,
+                        "hqLevel": 3,
+                        "reputationInvested": 1,
+                        "xp": 315,
+                        "score": 184,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 15,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490438284,
+                        "lastUpdated": 1490438286,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "51f2aa75-0c34-11e7-b7db-06a77e004fbb"
+                    },
+                    {
+                        "name": "STALKER",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490181004,
+                        "troopsDonated": 28,
+                        "troopsReceived": 7,
+                        "rank": 11,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 386,
+                        "score": 184,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 19,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490468673,
+                        "lastUpdated": 1490470321,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "9254dd74-0eee-11e7-9902-06cb44004f79"
+                    },
+                    {
+                        "name": "JuanMa",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1487894432,
+                        "troopsDonated": 110,
+                        "troopsReceived": 223,
+                        "rank": 13,
+                        "hqLevel": 5,
+                        "reputationInvested": 29,
+                        "xp": 712,
+                        "score": 180,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 118,
+                        "defensesWon": 2,
+                        "planet": "planet1",
+                        "lastLoginTime": 1489886686,
+                        "lastUpdated": 1490447294,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "4b379b97-f56b-11e6-91d6-06e6ee004fbc"
+                    },
+                    {
+                        "name": "yuuto",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490252443,
+                        "troopsDonated": 9,
+                        "troopsReceived": 12,
+                        "rank": 14,
+                        "hqLevel": 7,
+                        "reputationInvested": 0,
+                        "xp": 1512,
+                        "score": 148,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 896,
+                        "defensesWon": 126,
+                        "planet": "planet3",
+                        "lastLoginTime": 1490432046,
+                        "lastUpdated": 1490463267,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "53efb8da-4105-11e6-ac60-063864004f75"
+                    },
+                    {
+                        "name": "manoel",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490181076,
+                        "troopsDonated": 0,
+                        "troopsReceived": 5,
+                        "rank": 15,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 181,
+                        "score": 137,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 13,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490225237,
+                        "lastUpdated": 1490225755,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "d04907da-9a5a-11e6-81bb-06e6ee004fbc"
+                    },
+                    {
+                        "name": "bbbb",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490170874,
+                        "troopsDonated": 8,
+                        "troopsReceived": 2,
+                        "rank": 16,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 421,
+                        "score": 130,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 7,
+                        "defensesWon": 2,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490474807,
+                        "lastUpdated": 1490476733,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "55b1e6ee-0d4b-11e7-999d-069da4004f8b"
+                    },
+                    {
+                        "name": "rose",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490180248,
+                        "troopsDonated": 12,
+                        "troopsReceived": 18,
+                        "rank": 17,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 432,
+                        "score": 118,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 10,
+                        "defensesWon": 1,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490480661,
+                        "lastUpdated": 1490480668,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "cbe8ed43-05c7-11e7-ba0b-060a32004f8c"
+                    },
+                    {
+                        "name": "david",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490180053,
+                        "troopsDonated": 0,
+                        "troopsReceived": 4,
+                        "rank": 18,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 305,
+                        "score": 107,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 1,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490424423,
+                        "lastUpdated": 1490424427,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "2f2feb37-07d4-11e7-8d08-061c98004f78"
+                    },
+                    {
+                        "name": "Collinex",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490172247,
+                        "troopsDonated": 0,
+                        "troopsReceived": 1,
+                        "rank": 19,
+                        "hqLevel": 2,
+                        "reputationInvested": 0,
+                        "xp": 148,
+                        "score": 100,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 0,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490259566,
+                        "lastUpdated": 1490259569,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "f1857edf-0ed5-11e7-aaca-06c66a004f76"
+                    },
+                    {
+                        "name": "poh vj",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490172828,
+                        "troopsDonated": 0,
+                        "troopsReceived": 0,
+                        "rank": 19,
+                        "hqLevel": 2,
+                        "reputationInvested": 0,
+                        "xp": 148,
+                        "score": 100,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 0,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490243373,
+                        "lastUpdated": 1490243381,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "1ee3fd9a-0eca-11e7-b35e-06e6ee004fbc"
+                    },
+                    {
+                        "name": "kalyani",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490180785,
+                        "troopsDonated": 0,
+                        "troopsReceived": 0,
+                        "rank": 19,
+                        "hqLevel": 2,
+                        "reputationInvested": 0,
+                        "xp": 177,
+                        "score": 100,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 0,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490265853,
+                        "lastUpdated": 1490265861,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "e4508bcc-0edb-11e7-aaca-06c66a004f76"
+                    },
+                    {
+                        "name": "Quasar",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1481208966,
+                        "troopsDonated": 1075,
+                        "troopsReceived": 1350,
+                        "rank": 22,
+                        "hqLevel": 7,
+                        "reputationInvested": 154,
+                        "xp": 1484,
+                        "score": 92,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 4,
+                        "defensesWon": 65,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490478522,
+                        "lastUpdated": 1490478539,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "3076de44-a12f-11e6-85c9-060a32004f8c"
+                    },
+                    {
+                        "name": "Adi",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1490171564,
+                        "troopsDonated": 0,
+                        "troopsReceived": 0,
+                        "rank": 23,
+                        "hqLevel": 3,
+                        "reputationInvested": 0,
+                        "xp": 201,
+                        "score": 91,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 2,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490261952,
+                        "lastUpdated": 1490439583,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "06c434a2-0e4a-11e7-999d-069da4004f8b"
+                    },
+                    {
+                        "name": "Desigur",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1488213753,
+                        "troopsDonated": 65,
+                        "troopsReceived": 112,
+                        "rank": 24,
+                        "hqLevel": 5,
+                        "reputationInvested": 14,
+                        "xp": 821,
+                        "score": 80,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 30,
+                        "defensesWon": 9,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490443967,
+                        "lastUpdated": 1490464190,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "7cec7cfc-fc08-11e6-8147-063864004f75"
+                    },
+                    {
+                        "name": "Apollo Creed",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1480872669,
+                        "troopsDonated": 323,
+                        "troopsReceived": 506,
+                        "rank": 25,
+                        "hqLevel": 5,
+                        "reputationInvested": 46,
+                        "xp": 928,
+                        "score": 77,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 157,
+                        "defensesWon": 48,
+                        "planet": "planet3",
+                        "lastLoginTime": 1488750159,
+                        "lastUpdated": 1490470479,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "02adde88-b3cf-11e6-af61-06e6ee004fbc"
+                    },
+                    {
+                        "name": "geb",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1489676474,
+                        "troopsDonated": 1,
+                        "troopsReceived": 1,
+                        "rank": 26,
+                        "hqLevel": 4,
+                        "reputationInvested": 0,
+                        "xp": 448,
+                        "score": 63,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 7,
+                        "defensesWon": 0,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490229219,
+                        "lastUpdated": 1490455293,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "2627da40-086e-11e7-b35e-06e6ee004fbc"
+                    },
+                    {
+                        "name": "Darth Goof",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1481302375,
+                        "troopsDonated": 373,
+                        "troopsReceived": 589,
+                        "rank": 27,
+                        "hqLevel": 5,
+                        "reputationInvested": 101,
+                        "xp": 884,
+                        "score": 1,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 95,
+                        "defensesWon": 33,
+                        "planet": "planet1",
+                        "lastLoginTime": 1488409328,
+                        "lastUpdated": 1490434452,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "6b56da58-bcc2-11e6-8e5c-06cb44004f79"
+                    },
+                    {
+                        "name": "Snowy",
+                        "isOwner": false,
+                        "isOfficer": true,
+                        "joinDate": 1486204110,
+                        "troopsDonated": 708,
+                        "troopsReceived": 306,
+                        "rank": 27,
+                        "hqLevel": 6,
+                        "reputationInvested": 81,
+                        "xp": 1078,
+                        "score": 1,
+                        "warParty": 0,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 35,
+                        "defensesWon": 14,
+                        "planet": "planet1",
+                        "lastLoginTime": 1489362185,
+                        "lastUpdated": 1490456014,
+                        "hasPlanetaryCommand": false,
+                        "playerId": "a11bec70-ea6f-11e6-95f2-060a32004f8c"
+                    },
+                    {
+                        "name": "Lófütyi",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1486489859,
+                        "troopsDonated": 229,
+                        "troopsReceived": 422,
+                        "rank": 27,
+                        "hqLevel": 6,
+                        "reputationInvested": 72,
+                        "xp": 1160,
+                        "score": 1,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 53,
+                        "defensesWon": 11,
+                        "planet": "planet1",
+                        "lastLoginTime": 1489860531,
+                        "lastUpdated": 1490428315,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "1ebf2fe5-d76a-11e6-8f8c-06c66a004f76"
+                    },
+                    {
+                        "name": "Darth Enego",
+                        "isOwner": false,
+                        "isOfficer": false,
+                        "joinDate": 1487007906,
+                        "troopsDonated": 185,
+                        "troopsReceived": 233,
+                        "rank": 27,
+                        "hqLevel": 6,
+                        "reputationInvested": 63,
+                        "xp": 1059,
+                        "score": 1,
+                        "warParty": 1,
+                        "tournamentRating": 0,
+                        "tournamentScores": {
+                            "planet23": 0,
+                            "planet8": 0
+                        },
+                        "attacksWon": 188,
+                        "defensesWon": 4,
+                        "planet": "planet1",
+                        "lastLoginTime": 1490302250,
+                        "lastUpdated": 1490474051,
+                        "hasPlanetaryCommand": true,
+                        "playerId": "72ed2610-da97-11e6-b64c-06a77e004fbb"
+                    }
+                ],
+                "created": 1477748463,
+                "highestRankAchieved": 1116,
+                "activeMemberCount": 26,
+                "squadWarReadyCount": 27,
+                "currentWarId": "0395397b-10dc-11e7-84ee-06a77e004fbb",
+                "warSignUpTime": null,
+                "warRating": null,
+                "isSameFactionWarAllowed": true,
+                "score": 13572,
+                "rank": 1116,
+                "id": "568c7e7c-9ddd-11e6-abea-06c66a004f76",
+                "memberCount": 30,
+                "warHistory": [
+                    {
+                        "warId": "4f47daba-bb22-11e6-aca8-06e6ee004fbc",
+                        "endDate": 1481139469,
+                        "score": 15,
+                        "opponentScore": 0,
+                        "opponentGuildId": "83e84e84-103c-11e5-ab56-06a77e004fbb",
+                        "opponentName": "rebelsalience",
+                        "opponentIcon": "SquadSymbols_15"
+                    },
+                    {
+                        "warId": "2eb528fe-bd26-11e6-99eb-06a77e004fbb",
+                        "endDate": 1481361037,
+                        "score": 14,
+                        "opponentScore": 14,
+                        "opponentGuildId": "50b8bd5f-b0cc-11e6-8402-069da4004f8b",
+                        "opponentName": "Phoenix-Legion",
+                        "opponentIcon": "SquadSymbols_05"
+                    },
+                    {
+                        "warId": "8f0478f4-bff0-11e6-aa77-063864004f75",
+                        "endDate": 1481667856,
+                        "score": 15,
+                        "opponentScore": 12,
+                        "opponentGuildId": "8ac62757-a126-11e6-bf37-063864004f75",
+                        "opponentName": "X.Streme-Elite",
+                        "opponentIcon": "SquadSymbols_01"
+                    },
+                    {
+                        "warId": "2e451145-c2e0-11e6-9ed2-06cb44004f79",
+                        "endDate": 1481990674,
+                        "score": 15,
+                        "opponentScore": 5,
+                        "opponentGuildId": "e9e9a0ca-b650-11e6-8f5b-06dc8c004fbd",
+                        "opponentName": "RebelsEnforcers",
+                        "opponentIcon": "SquadSymbols_09"
+                    },
+                    {
+                        "warId": "a01d751c-c807-11e6-b400-060a32004f8c",
+                        "endDate": 1482557372,
+                        "score": 15,
+                        "opponentScore": 12,
+                        "opponentGuildId": "c9e057f7-a3e1-11e5-9c9b-06dc8c004fbd",
+                        "opponentName": "RUSSIANBEAR",
+                        "opponentIcon": "SquadSymbols_15"
+                    },
+                    {
+                        "warId": "bc423047-dcbe-11e6-8705-061c98004f78",
+                        "endDate": 1484835040,
+                        "score": 37,
+                        "opponentScore": 30,
+                        "opponentGuildId": "4114ffe0-a382-11e6-a225-069da4004f8b",
+                        "opponentName": "italianstellar",
+                        "opponentIcon": "SquadSymbols_16"
+                    },
+                    {
+                        "warId": "18dd6e62-df63-11e6-a0d9-061c98004f78",
+                        "endDate": 1485125535,
+                        "score": 45,
+                        "opponentScore": 2,
+                        "opponentGuildId": "90baf836-f36b-11e4-96f7-06dc8c004fbd",
+                        "opponentName": "chewbacca",
+                        "opponentIcon": "SquadSymbols_06"
+                    },
+                    {
+                        "warId": "f4e4d190-e890-11e6-9b37-06cb44004f79",
+                        "endDate": 1486134803,
+                        "score": 43,
+                        "opponentScore": 21,
+                        "opponentGuildId": "37a8a38d-ba10-11e5-8219-063864004f75",
+                        "opponentName": "ITALIANIS",
+                        "opponentIcon": "SquadSymbols_05"
+                    },
+                    {
+                        "warId": "b09a245e-eae9-11e6-8d5b-063864004f75",
+                        "endDate": 1486392805,
+                        "score": 45,
+                        "opponentScore": 15,
+                        "opponentGuildId": "20bad61e-b65c-11e5-99f7-06cb44004f79",
+                        "opponentName": "the.last.jedi",
+                        "opponentIcon": "SquadSymbols_15"
+                    },
+                    {
+                        "warId": "fd4c036f-f2ad-11e6-a79f-063864004f75",
+                        "endDate": 1487246773,
+                        "score": 44,
+                        "opponentScore": 11,
+                        "opponentGuildId": "a54c476b-466c-11e5-adae-06e6ee004fbc",
+                        "opponentName": "India",
+                        "opponentIcon": "SquadSymbols_02"
+                    },
+                    {
+                        "warId": "45fd456a-f56f-11e6-89b5-06cb44004f79",
+                        "endDate": 1487556207,
+                        "score": 45,
+                        "opponentScore": 26,
+                        "opponentGuildId": "939e4c19-6305-11e6-9059-06c66a004f76",
+                        "opponentName": "DroidekaSchinder",
+                        "opponentIcon": "SquadSymbols_15"
+                    },
+                    {
+                        "warId": "e3b52b59-f936-11e6-922c-06dc8c004fbd",
+                        "endDate": 1487965298,
+                        "score": 44,
+                        "opponentScore": 24,
+                        "opponentGuildId": "28d852b8-4aaa-11e6-adb8-06dc8c004fbd",
+                        "opponentName": "RebelsUnionS",
+                        "opponentIcon": "SquadSymbols_01"
+                    },
+                    {
+                        "warId": "55d464a8-febf-11e6-b985-06a77e004fbb",
+                        "endDate": 1488573640,
+                        "score": 43,
+                        "opponentScore": 37,
+                        "opponentGuildId": "bd0823b8-b643-11e6-8233-061c98004f78",
+                        "opponentName": "ThaiSmile",
+                        "opponentIcon": "SquadSymbols_02"
+                    },
+                    {
+                        "warId": "c9b13fcc-02a7-11e7-822d-06c66a004f76",
+                        "endDate": 1489003329,
+                        "score": 45,
+                        "opponentScore": 10,
+                        "opponentGuildId": "28d852b8-4aaa-11e6-adb8-06dc8c004fbd",
+                        "opponentName": "RebelsUnionS",
+                        "opponentIcon": "SquadSymbols_01"
+                    },
+                    {
+                        "warId": "f10eb347-0cf6-11e7-b7db-06a77e004fbb",
+                        "endDate": 1490136836,
+                        "score": 44,
+                        "opponentScore": 19,
+                        "opponentGuildId": "4de67ac0-4807-11e6-9377-060a32004f8c",
+                        "opponentName": "portugaldea%c3%a7o",
+                        "opponentIcon": "SquadSymbols_05"
+                    }
+                ],
+                "level": 28,
+                "totalRepInvested": 1782,
+                "perks": {
+                    "available": {
+                        "CBar_CFac": "perk_CBar_CFac6",
+                        "DntAmt_DntT": "perk_DntAmt_DntT5",
+                        "GCon_DntT": "perk_GCon_DntT5",
+                        "GCon_TDrd": "perk_GCon_TDrd4",
+                        "CHro_GAll": "perk_CHro_GAll4",
+                        "GCrd_GCon": "perk_GCrd_GCon4",
+                        "CCan_TDrd": "perk_CCan_TDrd5",
+                        "TDrd": "perk_TDrd4",
+                        "CBar_CCan": "perk_CBar_CCan6",
+                        "CFac_CCan": "perk_CFac_CCan4",
+                        "GAll_GCon": "perk_GAll_GCon4",
+                        "GCrd_DntT": "perk_GCrd_DntT2"
+                    },
+                    "inProgress": {
+                        "perk_CFac_CCan5": 5,
+                        "perk_GCon_TDrd5": 27
+                    }
+                },
+                "lastPerkNotif": 1490243436
+            },
+            "messages": {
+                "checkpoint": [
+                    {
+                        "message": {
+                            "checkpointTime": 1490480793
+                        },
+                        "messageId": "1b1eb8e5-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480793
+                    }
+                ],
+                "keepAlive": [
+                    {
+                        "message": {
+                            "keepAliveTime": 1490480795
+                        },
+                        "messageId": "1b1eb8e4-11aa-11e7-b35e-06e6ee004fbc",
+                        "messageTime": 1490480793
+                    }
+                ]
+            },
+            "status": 0
+        }
+    ],
+    "serverTimestamp": 1490480795,
+    "serverTime": "2017-03-25T15:26:35-07:00"
+}

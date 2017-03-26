@@ -13,7 +13,7 @@ import ProfilePicture from './ProfilePicture'
 
 //import * as Data from './FakeData'
 //var Data = require('./FakeData.ts');
-var Data = require('./DataWar');
+var Data = require('./Data');
 
 var splitViewId = "rootSplitView";
 

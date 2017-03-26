@@ -1,8 +1,6 @@
 import { Squad, SquadMember } from './Squad';
 
-//TODO: encoding was UTF-16 LE --> changed to UTF-8 without BOM
-var squad: Squad = require('./../data/568c7e7c-9ddd-11e6-abea-06c66a004f76@1490386135.json');
-
+var squad: Squad = require('./../data/568c7e7c-9ddd-11e6-abea-06c66a004f76@1490554084.json');
 
 var nextPersonId = 0;
 var firstNames: any = []
