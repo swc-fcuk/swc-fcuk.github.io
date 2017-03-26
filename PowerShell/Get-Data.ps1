@@ -1,5 +1,10 @@
 
+using namespace System
 using namespace System.Text
+using namespace System.Security.Cryptography
+
+$VerbosePreference = 'Continue'
+$DebugPreference = 'Continue'
 
 class Utils {
     static hidden Utils() {
@@ -32,11 +37,11 @@ $playerId = $prefs.Substring($prefs.IndexOf('prefPlayerId') + 16, 36)
 $playerSecret = $prefs.Substring($prefs.IndexOf('prefPlayerSecret') + 20, 32)
 $epochTime = [Math]::Floor([double]::Parse((Get-Date ([datetime]::UtcNow) -UFormat %s)))
 $message = "{`"userId`":`"$($playerId)`",`"expires`":$($epochTime)}"
-$hmac = [System.Security.Cryptography.HMACSHA256]::new()
-$hmac.Key = [System.Text.Encoding]::UTF8.GetBytes($playerSecret)
-$hash = $hmac.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($message))
-$hex = [System.BitConverter]::ToString($hash) -replace '-', ''
-$requestToken = [System.Convert]::ToBase64String(([System.Text.Encoding]::UTF8.GetBytes("$($hex).$($message)")))
+$hmac = [HMACSHA256]::new()
+$hmac.Key = [Encoding]::UTF8.GetBytes($playerSecret)
+$hash = $hmac.ComputeHash([Encoding]::UTF8.GetBytes($message))
+$hex = [BitConverter]::ToString($hash) -replace '-', ''
+$requestToken = [Convert]::ToBase64String(([Encoding]::UTF8.GetBytes("$($hex).$($message)")))
 
 $body = "batch={`"authKey`":`"`",`"commands`":[{`"action`":`"auth.getAuthToken`",`"args`":{`"playerId`":`"$($playerId)`",`"requestToken`":`"$($requestToken)`"}}]}"
 $r = Invoke-RestMethod -Uri https://n7-startswin-web-active.playdom.com/app/batch/json -Method Post -Body $body
@@ -93,4 +98,34 @@ $body = "batch=$(ConvertTo-Json -InputObject $batch -Depth 10 -Compress)"
 $r = $null
 $r = Invoke-RestMethod -Uri https://n7-startswin-web-active.playdom.com/app/batch/json -Method Post -Body $body
 #$r.data.messages
-$r.data.result |ConvertTo-Json |Out-File "$($PSScriptRoot)/../data/$($r.data.result.id)@$($r.serverTimestamp).json" -Encoding utf8
+$r.data.result |ConvertTo-Json -Depth 20 -Compress|Out-File "$($PSScriptRoot)/../data/$($r.data.result.id).json" -Encoding utf8
+# with a timestamp
+$r.data.result |ConvertTo-Json -Depth 20 -Compress|Out-File "$($PSScriptRoot)/../data/$($r.data.result.id)@$($r.serverTimestamp).json" -Encoding utf8
+
+$r.data.result.members.playerId |ForEach-Object {
+    $batch = @{
+        authKey = "$($authToken)"
+        pickupMessages = $true
+        #lastLoginTime = $lastLoginTime
+        commands = @(
+            @{
+                action = "player.neighbor.visit"
+                args = @{
+                    playerId = "$($playerId)"
+                    neighborId = "$($PSItem)"
+                    #sessionId = "$($sessionId)"
+                }
+                #requestId = $requestId++
+                time = [utils]::ConvertToEpochTime((Get-Date))
+                #token = "$([guid]::NewGuid())"
+            }
+        )
+    }
+
+    $body = "batch=$(ConvertTo-Json -InputObject $batch -Depth 10 -Compress)"
+    $r = $null
+    $r = Invoke-RestMethod -Uri https://n7-startswin-web-active.playdom.com/app/batch/json -Method Post -Body $body
+    $r.data.result |ConvertTo-Json -Depth 20 -Compress|Out-File "$($PSScriptRoot)/../data/$($r.data.result.player.playerId).json" -Encoding utf8
+    # with a timestamp
+    $r.data.result |ConvertTo-Json -Depth 20 -Compress|Out-File "$($PSScriptRoot)/../data/$($r.data.result.player.playerId)@$($r.serverTimestamp).json" -Encoding utf8
+}

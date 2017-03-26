@@ -1,12 +1,6 @@
 import { Squad, SquadMember } from './Squad';
 
-var squad: Squad = require('./../data/568c7e7c-9ddd-11e6-abea-06c66a004f76@1490554084.json');
-
-var nextPersonId = 0;
-var firstNames: any = []
-var lastNames: any = []
-var loremIpsum: any = [];
-var statuses: any = [];
+var squad: Squad = require('./../data/568c7e7c-9ddd-11e6-abea-06c66a004f76.json');
 
 var posterWidth = 400;
 var posterHeight = 400;
@@ -40,39 +34,7 @@ function randomElement(array: Array<any>) {
     return array[randomInt(0, array.length - 1)];
 }
 
-function genArray(minLength: any, maxLength: any, genElement: any) {
-    var len = randomInt(minLength, maxLength);
-    var result = new Array(len);
-    for (var i = 0; i < len; i++) {
-        result[i] = genElement();
-    }
-    return result;
-}
-
-function genName() {
-    return randomElement(firstNames) + " " + randomElement(lastNames);
-}
-
-function genPhoneNumber() {
-    return "555-0" + randomInt(100, 199);
-}
-
-function genPerson() {
-    return {
-        id: nextPersonId++,
-        name: genName(),
-        status: randomElement(statuses),
-        score: randomElement([2, 3, 4, 5, 6, 7, 8, 9]),
-        picture: randomElement(posters),
-        mobilePhone: genPhoneNumber(),
-        workPhone: genPhoneNumber()
-    };
-}
-
-var personCount = 50;
-var people = genArray(personCount, personCount, genPerson);
-
-people = []
+var people: Array<any> = []
 var person: Object
 squad.members.forEach(element => {
     person = {
@@ -102,36 +64,6 @@ squad.members.forEach(element => {
     people.push(person)
 });
 
-//var memberDetails: Array<Object>
-
-var memberDetails = []
-memberDetails.push(require('./../data/' + squad.members[0].playerId + '@1490386192.json'));
-memberDetails.push(require('./../data/2da37e9d-b0b4-11e6-913a-06cb44004f79@1490386314.json'));
-memberDetails.push(require('./../data/9fade00d-d859-11e6-b64c-06a77e004fbb@1490386446.json'));
-
-var members: Array<Object> = []
-var member: Object
-memberDetails.forEach(element => {
-    member = {
-        timeZoneOffset: element.playerModel.timeZoneOffset,
-        scalars: element.scalars,
-        troops: element.playerModel.upgrades.troop
-    }
-    members.push(member);
-    console.log(member)
-});
-
-console.log({
-    people: people,
-    members: members
-})
-
-console.log({
-    people: people
-})
-
-
 module.exports = {
     people: people,
-    members: members
 };
