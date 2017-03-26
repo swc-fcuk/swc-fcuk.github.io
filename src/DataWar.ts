@@ -11,6 +11,7 @@ var lastNames: any = []
 var loremIpsum: any = [];
 var statuses: any = [];
 
+
 var posterWidth = 400;
 var posterHeight = 400;
 var _canvas: HTMLCanvasElement;
